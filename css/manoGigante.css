@@ -1,0 +1,36 @@
+
+.titles{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;    
+}
+
+.titleRestaurant{
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.25em;
+}
+
+.backgoundImage{
+    background-image: url("../images/futurama.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.btnAllProducts{
+    background-color: #D7D7D7;
+    color: #4F4F4F;
+    font-size: 14px;
+    width: 25%;
+    border: 0;
+}
+
+.imageAtracciones{
+    width: 113px;
+    height: 113px;
+}
+
+.backgoundHospedaje{
+    background-image: url("../images/futurama.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
