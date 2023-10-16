@@ -9,7 +9,7 @@
 }
 
 .backgoundImage {
-    background-image: url("../images/futurama.jpg");
+    background-image: url("../images/ManoGigante/La_Mano_7.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -28,8 +28,15 @@
     height: 113px;
 }
 
-.backgoundHospedaje {
-    background-image: url("../images/futurama.jpg");
+
+.backgoundHospedaje_1 {
+    background-image: url("../images/ManoGigante/hospedaje_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.backgoundHospedaje_2 {
+    background-image: url("../images/ManoGigante/hospedaje_2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
