@@ -1,0 +1,77 @@
+.titles {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+.titleRestaurant {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.25em;
+}
+
+.backgoundImage {
+    background-image: url("../images/ManoGigante/atraccion_2.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.btnAllProducts {
+    background-color: #D7D7D7;
+    color: #4F4F4F;
+    font-size: 14px;
+    width: 25%;
+    border: 0;
+}
+
+.imageAtracciones {
+    width: 113px;
+    height: 113px;
+}
+
+
+.backgoundTestimonial_1 {
+    background-image: url("../images/ManoGigante/hospedaje_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+}
+
+.backgoundTestimonial_2 {
+    background-image: url("../images/ManoGigante/hospedaje_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pages {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    padding-left: 5px !important;
+}
+
+/* Aplica un margen derecho a todas las etiquetas li, excepto la última */
+ul.pagination li {
+    margin-right: 10px;
+}
+
+/* Elimina el margen derecho de la última etiqueta li para evitar espacio adicional */
+ul.pagination li:last-child {
+    margin-right: 0;
+}
+
+.arrow {
+    width: 30px;
+    /* Ajusta el tamaño según sea necesario */
+    height: auto;
+}
+
+.container {
+    position: relative;
+  }
+  
+  .arrow-container {
+    position: absolute;
+    top: -200px;
+    right: 0;
+  }
