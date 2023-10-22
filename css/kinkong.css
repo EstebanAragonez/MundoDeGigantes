@@ -67,3 +67,27 @@ ul.pagination li:last-child {
     top: -200px;
     right: 0;
   }
+
+/* Estilo inicial transparente para la barra de navegación */
+.navbar {
+    z-index: 1000;
+}
+
+/* Estilo para la barra de navegación después del desplazamiento */
+.navbar-scrolled {
+    background: white !important;
+    position: fixed;
+    width: 100%;
+    height: auto;
+}
+.navbar a {
+    color: #000 !important;
+}
+
+/* Estilo para la barra de navegación transparente después del desplazamiento */
+.navbar-transparent {
+    background: transparent !important;
+    position: fixed;
+    width: 100%;
+    height: auto;
+}

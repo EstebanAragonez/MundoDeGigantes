@@ -12,6 +12,40 @@
 </head>
 
 <body style="overflow-x: hidden">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <!-- <a class="navbar-brand" href="#">Mi Sitio Web</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav w-100 d-flex justify-content-between">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">DONDE QUEDARSE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">RESTAURANTES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">EVENTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PLANES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">MAPAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HISTORIAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div class="d-flex align-items-center justify-content-center backgoundImage" style="height: 50vh">
         <span class="titles" style="font-size: 52px; color: #000">Santa Rosa</span>
     </div>
@@ -221,5 +255,23 @@
         </ul>
     </div>
 </body>
+<script>
+    window.addEventListener("scroll", function () {
+        const navbar = document.querySelector(".navbar");
+        if (window.scrollY > 10) {
+            navbar.classList.add("navbar-scrolled");
+            navbar.classList.remove("navbar-transparent");
+        } else {
+            navbar.classList.remove("navbar-scrolled");
+            navbar.classList.add("navbar-transparent");
 
+        }
+    });
+
+    // Inicialmente, establece la barra de navegación como transparente
+    document.addEventListener("DOMContentLoaded", function () {
+        const navbar = document.querySelector(".navbar");
+        navbar.classList.add("navbar-transparent");
+    });
+</script>
 </html>

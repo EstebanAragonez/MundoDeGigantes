@@ -13,6 +13,8 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
+    height: 80vh;
 }
 
 .btnAllProducts {
@@ -33,13 +35,14 @@
     background-image: url("../images/ManoGigante/hospedaje_1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 40px;
+    border-radius: 20px;
 }
 
 .backgoundTestimonial_2 {
     background-image: url("../images/ManoGigante/hospedaje_2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 20px;
 }
 
 .pages {
@@ -70,8 +73,43 @@ ul.pagination li:last-child {
     position: relative;
   }
   
-  .arrow-container {
+.arrow-container {
     position: absolute;
     top: -200px;
     right: 0;
   }
+
+.miradores-image {
+    width: 400px;
+    height: 450px;
+}
+
+/* Estilo inicial transparente para la barra de navegación */
+.navbar {
+    z-index: 1000;
+}
+
+/* Estilo para la barra de navegación después del desplazamiento */
+.navbar-scrolled {
+    background: white !important;
+    position: fixed;
+    width: 100%;
+    height: auto;
+}
+.navbar a {
+    color: #000 !important;
+}
+
+/* Estilo para la barra de navegación transparente después del desplazamiento */
+.navbar-transparent {
+    background: transparent !important;
+    position: fixed;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
