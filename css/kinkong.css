@@ -29,9 +29,28 @@
 }
 
 .backgoundHospedaje {
-    background-image: url("../images/futurama.jpg");
+    background-image: url("../images/Casa_Arbol/hospedaje.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+.backgoundHospedaje2 {
+    background-image: url("../images/Casa_Arbol/hospedaje2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backgoundHospedaje, .backgoundHospedaje2 {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+}
+.imagen-tamano-uniforme {
+    max-width: 200px;
+    max-height: 200px; 
+    width: auto; 
+    height: auto; 
+    object-fit: cover;
 }
 
 .pages {
