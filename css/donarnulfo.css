@@ -9,7 +9,7 @@
 }
 
 .backgoundImage {
-    background-image: url("../images/futurama.jpg");
+    background-image: url("../images/Don_Arnulfo/arnulfo.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -33,6 +33,14 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.imagen-tamano-uniforme {
+    max-width: 400px;
+    max-height: 400px; 
+    width: auto; 
+    height: auto; 
+    object-fit: cover;
+}   
 
 .pages {
     border-radius: 50%;

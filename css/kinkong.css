@@ -46,8 +46,8 @@
     height: 500px;
 }
 .imagen-tamano-uniforme {
-    max-width: 200px;
-    max-height: 200px; 
+    max-width: 300px;
+    max-height: 300px; 
     width: auto; 
     height: auto; 
     object-fit: cover;

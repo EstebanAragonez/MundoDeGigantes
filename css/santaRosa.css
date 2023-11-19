@@ -9,10 +9,10 @@
 }
 
 .backgoundImage {
-    background-image: url("../images/futurama.jpg");
+    background-image: url("../images/Santa_Rosa/IMG_6833 - copia.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; 
 }
 
 .btnAllProducts {
