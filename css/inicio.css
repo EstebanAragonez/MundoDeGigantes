@@ -45,12 +45,9 @@
     border-radius: 20px;
 }
 
-.pages {
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    background-color: grey;
-    padding-left: 5px !important;
+.icono-grande {
+    font-size: 3em;
+    /* Aumenta este valor para hacer los iconos más grandes */
 }
 
 /* Aplica un margen derecho a todas las etiquetas li, excepto la última */
@@ -71,17 +68,19 @@ ul.pagination li:last-child {
 
 .container {
     position: relative;
-  }
-  
+}
+
 .arrow-container {
     position: absolute;
     top: -200px;
     right: 0;
-  }
+}
 
 .miradores-image {
     width: 400px;
     height: 450px;
+    border-radius: 6px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
 }
 
 /* Estilo inicial transparente para la barra de navegación */
@@ -96,6 +95,7 @@ ul.pagination li:last-child {
     width: 100%;
     height: auto;
 }
+
 .navbar a {
     color: #000 !important;
 }
@@ -108,8 +108,233 @@ ul.pagination li:last-child {
     height: auto;
 }
 
+.icono-grande {
+    font-size: 3em;
+}
+
+.site-footer {
+    background-color: #26272b;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+}
+
+.site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5
+}
+
+.site-footer hr.small {
+    margin: 20px 0
+}
+
+.site-footer h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px
+}
+
+.site-footer a {
+    color: #737373;
+}
+
+.site-footer a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links {
+    padding-left: 0;
+    list-style: none
+}
+
+.footer-links li {
+    display: block
+}
+
+.footer-links a {
+    color: #737373
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links.inline li {
+    display: inline-block
+}
+
+.site-footer .social-icons {
+    text-align: right
+}
+
+.site-footer .social-icons a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 6px;
+    margin-right: 0;
+    border-radius: 100%;
+    background-color: #33353d
+}
+
+.copyright-text {
+    margin: 0
+}
+
+@media (max-width:991px) {
+    .site-footer [class^=col-] {
+        margin-bottom: 30px
+    }
+}
+
+@media (max-width:767px) {
+    .site-footer {
+        padding-bottom: 0
+    }
+
+    .site-footer .copyright-text,
+    .site-footer .social-icons {
+        text-align: center
+    }
+}
+
+.social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-bottom: 4px
+}
+
+.social-icons li.title {
+    margin-right: 15px;
+    text-transform: uppercase;
+    color: #96a2b2;
+    font-weight: 700;
+    font-size: 13px
+}
+
+.social-icons a {
+    background-color: #eceeef;
+    color: #818a91;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear
+}
+
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+    color: #fff;
+    background-color: #29aafe
+}
+
+.social-icons.size-sm a {
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    font-size: 14px
+}
+
+.social-icons a.facebook:hover {
+    background-color: #1a2c53
+}
+
+.social-icons a.facebook {
+    color: #fff;
+    background-color: #3b5998
+}
+
+.social-icons a.instagram:hover {
+    background-color: #7f1840
+}
+.social-icons a.instagram{
+    color: #fff;
+    background-color: #ea4c89
+}
+
+@media (max-width:767px) {
+    .social-icons li.title {
+        display: block;
+        margin-right: 0;
+        font-weight: 600
+    }
+}
 
 
+.button-container button:hover {
+    background-color: #515151;
+    /* Color de fondo al pasar el mouse (opcional) */
+}
 
+.positioned-button {
+    position: absolute; /* Posicionamiento absoluto */
+    top: 50%;          /* Centrado verticalmente */
+    transform: translateY(-50%); /* Ajusta la posición para centrar exactamente */
+    z-index: 10;       /* Asegura que el botón esté sobre otros elementos */
+}
+
+/* Asegúrate de que el contenedor principal tiene posición relativa */
+.row-images {
+    position: relative;
+}
+
+/* Ajuste específico para el botón Anterior */
+#prevButton {
+    position: absolute;
+    left: -52px; /* Ajusta según el ancho del botón para que quede a la mitad fuera de la imagen */
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 15;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #c8c8c8;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+
+}
+#prevButton:hover {
+    background-color: #676262; /* El color que quieras al pasar el mouse */
+}
+
+#nextButton {
+    position: absolute;
+    right: -40px; /* Ajusta según el ancho del botón para que quede a la mitad fuera de la imagen */
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #c8c8c8;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+#nextButton:hover {
+    background-color: #676262; /* El color que quieras al pasar el mouse */
+}
 
 

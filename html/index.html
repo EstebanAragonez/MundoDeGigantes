@@ -9,10 +9,45 @@
 
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/whatsapp">
+
+    <script src="https://kit.fontawesome.com/3b4cea9a6c.js" crossorigin="anonymous"></script>
     <title>Principal</title>
 </head>
 
 <body style="overflow-x: hidden">
+    <style>
+        .float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            right: 40px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+        }
+
+        .float:hover {
+            text-decoration: none;
+            color: #25d366;
+            background-color: #fff;
+        }
+
+        .my-float {
+            margin-top: 16px;
+        }
+
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=573160506014&text=Hola%21%20Quisiera%20asesoria." class="float"
+        target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <!-- <a class="navbar-brand" href="#">Mi Sitio Web</a> -->
@@ -96,10 +131,10 @@
             </div>
         </div>
     </div>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
+    <br />
+    <br />
+    <br />
+    <br />
     <div class="container d-flex justify-content-center" style="margin-top: 5%">
         <hr class="mt-5" />
     </div>
@@ -109,33 +144,20 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4">
-                <img src="../images/ManoGigante/atraccion_3.jpg" class="img-fluid miradores-image" alt="" />
-                <h6 class="titleRestaurant mt-2">LA MANO GIGANTE</h6>
-                <p class="text-muted mt-2">
-                    La Mano del Gigante abrió al público a inicios del año 2019 y se ha
-                    vuelto todo un furor en redes sociales, cada vez son más y más los
-                    influencers, instragramers, viajeros, moteros, turistas locales y
-                    extranjeros en general que visitan este lugar para lograr las
-                    fotografías que ofrece este paisaje tan especial, representativo y
-                    excepcional que ofrece la ubicación de esta expresión del Gigantismo
-                    Mágico.
-                </p>
+                <button id="prevButton" class="positioned-button"><i class="fa-solid fa-arrow-left"></i></button>
+                <img id="contenedor1" src="../images/morraGigante.jpeg" class="img-fluid miradores-image" alt="" />
+                <h6 id="titulo1" class="titleRestaurant mt-2">Conoce la morra gigante en la tierra de gigantes
+                </h6>
             </div>
             <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4">
-                <img src="../images/ALUNA/Aluna_1.jpg" class="img-fluid miradores-image" alt="" />
-                <h6 class="titleRestaurant mt-2">ALUNA</h6>
-                <p class="text-muted mt-2">
-                    The languages only differ in their grammar, their pronun and their
-                    most common words.
-                </p>
+                <img id="contenedor2" src="../images/laManoGigante1.jpeg" class="img-fluid miradores-image" alt="" />
+                <h6 id="titulo2" class="titleRestaurant mt-2">Gigante Huila el pueblo más Instagrameable de Colombia
+                    </h6>
             </div>
             <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4">
-                <img src="../images/Don_Arnulfo/don_arnulfo_1.jpeg" class="img-fluid miradores-image" alt="" />
-                <h6 class="titleRestaurant mt-2">DON ARNULFO</h6>
-                <p class="text-muted mt-2">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                    commodo ligula eget dolor.
-                </p>
+                <img id="contenedor3" src="../images/rutaMontana1.jpeg" class="img-fluid miradores-image" alt="" />
+                <h6 id="titulo3" class="titleRestaurant mt-2">La ruta de la montaña, una experiencia única en Gigante Huila </h6>
+                <button id="nextButton" class="positioned-button"><i class="fa-solid fa-arrow-right"></i></button>
             </div>
         </div>
     </div>
@@ -189,24 +211,32 @@
                 </div>
             </div>
         </div>
-        <hr class="mt-5" />
     </div>
+    <br><br><br>
+    <hr class="mt-5" />
     <div class="container mt-5">
-        <div class="arrow-container">
-            <img src="../images/arrow.png" class="arrow" alt="" />
+        <div class="footer-clean">
+            <footer>
+                <div class="container">
+                    <div class="row">
+                      <div class="col-md-8 col-sm-6 col-xs-12">
+                        <p class="copyright-text">Copyright &copy; 2023 Mundo De Gigantes.</p><br>
+                        <p></p>
+                      </div>
+
+                      <div class="col-md-4 col-sm-6 col-xs-12">
+                        <ul class="social-icons">
+                          <li><a class="facebook" href="#"><i class="fa fa-facebook icono-grande"></i></a></li>
+                          <li><a class="instagram" href="https://instagram.com/mundodegigantes?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram fa-lg"></i></a></li>
+                          <li><i class="fa-solid fa-envelope"></i> mundoGigantes@gmail.com</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+            </footer>
         </div>
-        <ul class="pagination justify-content-center">
-            <!--           <li class="">
-            <a class="page-link">Previous</a>
-          </li> -->
-            <li class="pages"><a class="" href="#"></a></li>
-            <li class="pages"><a class="" href="#"></a></li>
-            <li class="pages"><a class="" href="#"></a></li>
-            <li class="pages"><a class="" href="#"></a></li>
-            <li class="pages">
-                <!-- <a class="page-link" href="#">Next</a> -->
-            </li>
-        </ul>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
     </div>
 </body>
 <script>
@@ -227,6 +257,71 @@
         const navbar = document.querySelector(".navbar");
         navbar.classList.add("navbar-transparent");
     });
+    const data = [
+        {
+            images: ["../images/cabañas1.jpeg", "../images/letrero1.jpeg", "../images/mirtayu1.jpeg"],
+            titles: ["Mereces consentirte y disfrutar de un bonito lugar", "Disfruta de increíbles spots fotográficos y llévate el mejor recuerdo", "La gran Gigante Mirthayú renace la historia de los Gigantes."],
+        },
+        {
+            images: ["../images/culumpioAlas1.jpeg", "../images/corazon2.jpeg", "../images/miradorMichues1.jpeg"],
+            titles: ["Arte en la montaña más hermosa de Colombia", "Sueña en Grande en la tierra de Gigantes", "Un mirador imperdible en tú viaje por el mundo de Gigantes"],
+        },
+        {
+            images: ["../images/serpiente1.jpeg", "../images/hospedaje1.jpeg", "../images/globo1.jpeg"],
+            titles: ["Sé feliz en un mágico lugar rodeado de naturaleza ", "un lugar para disfrutar de hermosos espacios y hospedarte con la mejor vista", "disfrutar junto a tu persona favorita de un mágico lugar en la tierra de Gigantes."],
+        },
+        {
+            images: ["../images/aluna1.jpeg", "../images/arcoiris1.jpeg", "../images/kingKong1.jpeg"],
+            titles: ["8 Motivos que hacen de está tierra mágica un mundo de Gigantes.", "Atrévete a vivir las mejores experiencias en la montaña más hermosa de Colombia, la mano del gigante ", "El Gigante King Kong en el mundo de Gigantes dónde sus leyendas se mantienen vivas."],
+        },
+        {
+            images: ["../images/morraGigante.jpeg", "../images/laManoGigante1.jpeg", "../images/rutaMontana1.jpeg"],
+            titles: ["Conoce la morra gigante en la tierra de gigantes.", "Gigante Huila el pueblo más Instagrameable de Colombia.", "La ruta de la montaña, una experiencia única en Gigante Huila."],
+        },
+    ];
+    let currentIndex = 0;
+    let intervalId;
+
+    function startInterval() {
+        intervalId = setInterval(() => {
+            currentIndex = (currentIndex + 1) % data.length; // Avance automático hacia adelante
+            updateContent();
+        }, 5000);
+    }
+
+    function resetInterval() {
+        clearInterval(intervalId);
+        startInterval();
+    }
+
+    function updateContent() {
+        console.log("Actualizando contenido. Índice actual: " + currentIndex);
+        for (let i = 1; i <= 3; i++) {
+            document.getElementById(`contenedor${i}`).src = data[currentIndex].images[i - 1];
+            document.getElementById(`titulo${i}`).innerText = data[currentIndex].titles[i - 1];
+        }
+    }
+
+    startInterval();
+
+    document.getElementById('prevButton').addEventListener('click', function () {
+        console.log("Botón Anterior presionado. Índice antes de actualizar: " + currentIndex);
+        currentIndex = (currentIndex - 1 + data.length) % data.length;
+        console.log("Índice después de actualizar: " + currentIndex);
+        updateContent();
+        resetInterval();
+    });
+
+    document.getElementById('nextButton').addEventListener('click', function () {
+        console.log("Botón Siguiente presionado. Índice antes de actualizar: " + currentIndex);
+        currentIndex = (currentIndex + 1) % data.length;
+        console.log("Índice después de actualizar: " + currentIndex);
+        updateContent();
+        resetInterval();
+    });
+
+
+
 </script>
 
 </html>
