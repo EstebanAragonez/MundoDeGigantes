@@ -290,7 +290,9 @@ ul.pagination li:last-child {
 }
 
 .social-icons a.facebook:hover {
-    background-color: #1a2c53
+    color: #fff;
+    background-color: rgb(30, 149, 185);
+    
 }
 
 .social-icons a.facebook {
@@ -355,7 +357,7 @@ ul.pagination li:last-child {
 
 #nextButton {
     position: absolute;
-    right: -40px; /* Ajusta según el ancho del botón para que quede a la mitad fuera de la imagen */
+    right: -50px; /* Ajusta según el ancho del botón para que quede a la mitad fuera de la imagen */
     top: 50%;
     transform: translateY(-50%);
     z-index: 10;
