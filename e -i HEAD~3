@@ -1,0 +1,142 @@
+[33mcommit dd51dc02b951a79c5484d688ca0ad6a312fb053f[m[33m ([m[1;36mHEAD -> [m[1;32mdevelopment[m[33m)[m
+Author: jeartunduaga <jeartunduaga96@gmail.com>
+Date:   Wed Dec 13 12:26:06 2023 -0500
+
+    Se deja video directo de youtube y se hace proceso de responsive y tipo de letra en titulo principal
+
+[33mcommit 144e5b571077fae9345c6d217dbbc64d83e12a27[m
+Author: jeartunduaga <jeartunduaga96@gmail.com>
+Date:   Tue Dec 12 23:41:12 2023 -0500
+
+    cambios en el nav, imagen principal, corrección texto del mapa del huila, y se agrega video
+
+[33mcommit 8f894150b2f78c3e9ed4f24963cd14f048f830bc[m
+Author: jeartunduaga <jeartunduaga96@gmail.com>
+Date:   Tue Dec 12 23:31:15 2023 -0500
+
+    cambios en el nav, imagen principal, correcion texto del mapa del huila, y se agrega video
+
+[33mcommit ea1e9e8805022f7734b58ea6bf911f4dbbf8639e[m[33m ([m[1;31morigin/development[m[33m)[m
+Author: ÉstabanAragonez <aragonezleo@gmail.com>
+Date:   Tue Dec 12 20:45:28 2023 -0500
+
+    se quita seccion que no va
+
+[33mcommit 78b74e8a2bb96124a32d7ffd836938a55c4e10d8[m
+Author: jeartunduaga <jeartunduaga96@gmail.com>
+Date:   Sun Nov 19 12:04:51 2023 -0500
+
+    Auste de fotos
+
+[33mcommit cca9abb372bdd35b0bf5de78da9a7dfd60dc3df4[m
+Author: Esteban Aragonez <aragonezleo@gmail.com>
+Date:   Tue Nov 14 15:02:17 2023 -0500
+
+    carga de imagenes del proyecto
+
+[33mcommit c60394f146fd1ad37f0b1f24c40c6468a4dc64a3[m
+Author: jeartunduaga <jeartunduaga96@gmail.com>
+Date:   Sun Oct 22 17:36:16 2023 -0500
+
+    Implementacion del Navbar en los diferentes archivos
+
+[33mcommit 0ab1f4f9870452761ea506191690ff74249fc28f[m
+Author: Esteban <120687138+EstebanAragonez@users.noreply.github.com>
+Date:   Sun Oct 22 13:48:09 2023 -0500
+
+    Update and rename surHuila.png:Zone.Identifier to surHuila1.png
+    
+    conflicto al hacer pull
+
+[33mcommit 61453bb9d9dfb89d215afdbb75b8189de4087272[m
+Author: santyagomc <santyagomurciamc@gmail.com>
+Date:   Thu Oct 19 22:02:45 2023 -0500
+
+    Se realiza la pagina inicial
+
+[33mcommit c666f53459fd3f4ce72d9c29f84a8f781b7987f4[m
+Merge: 10cce14 052415f
+Author: sanflor <902olbalarconsantiago@gmail.com>
+Date:   Mon Oct 16 12:46:45 2023 -0500
+
+    Merge branch 'development' of https://github.com/EstebanAragonez/MundoDeGigantes into development
+
+[33mcommit 10cce1409f54947eb60f9dee8c6f64223b142620[m
+Author: sanflor <902olbalarconsantiago@gmail.com>
+Date:   Mon Oct 16 12:40:55 2023 -0500
+
+    creacion de las otras paginas
+
+[33mcommit 052415f97b1ffe1181c8cb57e321749cb0981935[m
+Author: santyagomc <santyagomurciamc@gmail.com>
+Date:   Thu Oct 12 22:19:19 2023 -0500
+
+    Se han agregado las imagenes y multimedia de la mano gigante
+
+[33mcommit 47fdc1c2f4bd495e88cf039c4b0748c283ce6646[m
+Author: sanflor <902olbalarconsantiago@gmail.com>
+Date:   Tue Oct 10 21:35:45 2023 -0500
+
+    avances pagina uno
+
+[33mcommit 2f43d24c7c057127398aa476892e60e22ee3cb9a[m
+Author: ÉstabanAragonez <aragonezleo@gmail.com>
+Date:   Thu Oct 5 20:59:56 2023 -0500
+
+    primera parte del paginador
+
+[33mcommit be605cf1a00ab886f7e4cca24f323d2fd1eb2b9f[m
+Merge: 3609820 dfe9e00
+Author: ÉstabanAragonez <aragonezleo@gmail.com>
+Date:   Tue Oct 3 22:34:06 2023 -0500
+
+    Merge branch 'development' of https://github.com/EstebanAragonez/MundoDeGigantes into development
+
+[33mcommit 3609820601b7cad62c9494fcb607e1407200be69[m
+Author: ÉstabanAragonez <aragonezleo@gmail.com>
+Date:   Tue Oct 3 22:33:38 2023 -0500
+
+    index.html
+
+[33mcommit dfe9e00aff90f0b9dcf4aab31f99fc36cbd310b6[m
+Merge: 2fc1e6b e4da4c3
+Author: santyagomc <santyagomurciamc@gmail.com>
+Date:   Mon Oct 2 22:16:55 2023 -0500
+
+    Solucion de conflictos
+
+[33mcommit 2fc1e6b265c5a3bcfc52a63165410403d6c9a8ae[m
+Author: santyagomc <santyagomurciamc@gmail.com>
+Date:   Mon Oct 2 22:12:17 2023 -0500
+
+    Se finaliza la estructura de la mano gigante
+
+[33mcommit e4da4c3016cf7fc4329e25253ad1bb21245cfcd4[m
+Author: santyagomc <santyagomurciamc@gmail.com>
+Date:   Sat Sep 30 09:43:37 2023 -0500
+
+    Se ha realizado la vista de Mano Gigante y se agrega la libreria de bootstrap
+
+[33mcommit e7c8677f1ac7f572fb09d5ab607f5a4d93e53b40[m
+Author: santyagomc <santyagomurciamc@gmail.com>
+Date:   Fri Sep 29 23:32:21 2023 -0500
+
+    Se realiza avance de la vista para el apartado de la Mano Gigante y se agrega la libreria bootstrap
+
+[33mcommit f7fea39a8cd606c42ae3cb990f1af258ada77221[m
+Author: ÉstabanAragonez <aragonezleo@gmail.com>
+Date:   Tue Sep 26 22:45:12 2023 -0500
+
+    se agregan las carpetas del proyecto
+
+[33mcommit cc8a87c343cc6bce8f343eae894a81e620e711e7[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: ÉstabanAragonez <aragonezleo@gmail.com>
+Date:   Tue Sep 26 22:24:26 2023 -0500
+
+    prueba
+
+[33mcommit c5bb0a94b845413ae5a3d7c587acda45ed824961[m
+Author: Esteban <120687138+EstebanAragonez@users.noreply.github.com>
+Date:   Tue Sep 26 22:19:25 2023 -0500
+
+    Initial commit
