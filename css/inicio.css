@@ -374,4 +374,16 @@ ul.pagination li:last-child {
     background-color: #676262; /* El color que quieras al pasar el mouse */
 }
 
+.containerIntro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente */
+        min-height: 100vh; /* Asegura que el contenedor tenga al menos la altura de la ventana de visualización */
+        height: 100vh; /* Puede ser necesario para algunos navegadores para centrar verticalmente */
+}
+
 
