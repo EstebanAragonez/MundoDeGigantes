@@ -292,7 +292,7 @@ ul.pagination li:last-child {
 .social-icons a.facebook:hover {
     color: #fff;
     background-color: rgb(30, 149, 185);
-    
+
 }
 
 .social-icons a.facebook {
@@ -382,8 +382,11 @@ ul.pagination li:last-child {
         display: flex;
         justify-content: center; /* Centra horizontalmente */
         align-items: center; /* Centra verticalmente */
-        min-height: 100vh; /* Asegura que el contenedor tenga al menos la altura de la ventana de visualización */
         height: 100vh; /* Puede ser necesario para algunos navegadores para centrar verticalmente */
+}
+
+.p{
+    text-align: justify;
 }
 
 
