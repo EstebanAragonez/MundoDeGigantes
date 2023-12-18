@@ -1,18 +1,28 @@
-.titles {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
+.title1 {
+    font-family: 'Heebo', sans-serif;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0)
 }
 
+.titles {
+    font-family: 'Heebo', sans-serif;
+}
 .titleRestaurant {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Heebo', sans-serif;
     letter-spacing: 0.25em;
 }
 
+.titles-2 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 52px;
+}
+
 .backgoundImage {
-    background-image: url("../images/ManoGigante/La_Mano_7.jpg");
+    background-image: url("../images/ManoGigante/IMG_4694_2.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
+    height: 80vh;
 }
 
 .btnAllProducts {
@@ -82,13 +92,18 @@ ul.pagination li:last-child {
 
 /* Estilo para la barra de navegación después del desplazamiento */
 .navbar-scrolled {
-    background: white !important;
+    background: #479FD9 !important;
     position: fixed;
     width: 100%;
     height: auto;
 }
+
 .navbar a {
-    color: #000 !important;
+    font-family: 'Heebo', sans-serif;
+    color: #ffffff !important;
+    font-size: 15px;
+    font-weight: 400;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0)
 }
 
 /* Estilo para la barra de navegación transparente después del desplazamiento */
@@ -97,4 +112,92 @@ ul.pagination li:last-child {
     position: fixed;
     width: 100%;
     height: auto;
+}
+
+.box_shadow {
+    border-radius: 6px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
+}
+
+.social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-bottom: 4px
+}
+
+.social-icons li.title {
+    margin-right: 15px;
+    text-transform: uppercase;
+    color: #96a2b2;
+    font-weight: 700;
+    font-size: 13px
+}
+
+.social-icons a {
+    background-color: #eceeef;
+    color: #818a91;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear
+}
+
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+    color: #fff;
+    background-color: #29aafe
+}
+
+.social-icons.size-sm a {
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    font-size: 14px
+}
+
+.social-icons a.facebook:hover {
+    color: #fff;
+    background-color: rgb(30, 149, 185);
+
+}
+
+.social-icons a.facebook {
+    color: #fff;
+    background-color: #3b5998
+}
+
+.social-icons a.instagram:hover {
+    background-color: #7f1840
+}
+.social-icons a.instagram{
+    color: #fff;
+    background-color: #ea4c89
+}
+
+@media (max-width:767px) {
+    .social-icons li.title {
+        display: block;
+        margin-right: 0;
+        font-weight: 600
+    }
+}
+
+@media (max-width: 400px) {
+    .titles-2 {
+        font-family: 'Heebo', sans-serif;
+        font-size: 40px;
+    }
 }
