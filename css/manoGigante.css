@@ -3,16 +3,27 @@
     font-style: italic;
 }
 
+.title1 {
+    font-family: 'Playfair Display', serif;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0)
+}
+.titles-2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 52px;
+}
+
 .titleRestaurant {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
     letter-spacing: 0.25em;
 }
 
 .backgoundImage {
-    background-image: url("../images/ManoGigante/La_Mano_7.jpg");
+    background-image: url("../images/ManoGigante/IMG_4694_2.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
+    height: 80vh;
 }
 
 .btnAllProducts {
@@ -64,20 +75,8 @@ ul.pagination li:last-child {
     margin-right: 0;
 }
 
-.arrow {
-    width: 30px;
-    /* Ajusta el tamaño según sea necesario */
-    height: auto;
-}
-
 .container {
     position: relative;
-  }
-  
-  .arrow-container {
-    position: absolute;
-    top: -200px;
-    right: 0;
   }
 
 /* Estilo inicial transparente para la barra de navegación */
@@ -87,13 +86,17 @@ ul.pagination li:last-child {
 
 /* Estilo para la barra de navegación después del desplazamiento */
 .navbar-scrolled {
-    background: white !important;
+    background: #479FD9 !important;
     position: fixed;
     width: 100%;
     height: auto;
 }
 .navbar a {
-    color: #000 !important;
+    font-family: 'Playfair Display', serif;
+    color: #ffffff !important;
+    font-size: 15px;
+    font-weight: 400;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0)
 }
 
 /* Estilo para la barra de navegación transparente después del desplazamiento */
@@ -104,10 +107,11 @@ ul.pagination li:last-child {
     height: auto;
 }
 
-/* .icono-grande {
-    font-size: 3em;
+.box_shadow {
+    border-radius: 6px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
 }
- */
+
 .site-footer {
     background-color: #26272b;
     padding: 45px 0 20px;
@@ -201,6 +205,25 @@ ul.pagination li:last-child {
     }
 }
 
+@media (max-width: 400px) {
+    .titles-2 {
+        font-family: 'Playfair Display', serif;
+        font-size: 40px;
+    }
+    .titleRestaurant {
+        font-family: 'Playfair Display', serif;
+        letter-spacing: 0.25em;
+        font-size: 8px;
+    }
+    .btnAllProducts {
+        background-color: #D7D7D7;
+        color: #4F4F4F;
+        font-size: 8px;
+        width: 40%;
+        border: 0;
+    }
+}
+
 .social-icons {
     padding-left: 0;
     margin-bottom: 0;
@@ -285,13 +308,9 @@ ul.pagination li:last-child {
 }
 
 .miradores-image {
-    width: 400px;
+    width: auto;
     height: 450px;
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
     box-shadow: -6px 6px 10px rgba(0, 0, 0, 0.5); /* Sombra solo en el lado izquierdo y superior/inferior */
-}
-
-.miradores-image-container {
-    min-height: 450px; /* Altura mínima para el contenedor de la imagen */
 }

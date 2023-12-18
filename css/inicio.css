@@ -1,13 +1,13 @@
 .title1 {
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Playfair Display', serif;
     text-shadow: 1px 1px 3px rgb(0, 0, 0)
 }
 
 .titles {
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 .titleRestaurant {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
     letter-spacing: 0.25em;
 }
 
@@ -79,6 +79,11 @@ ul.pagination li:last-child {
     right: 0;
 }
 
+.box_shadow {
+    border-radius: 6px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
+}
+
 .miradores-image {
     width: 400px;
     height: 450px;
@@ -100,10 +105,11 @@ ul.pagination li:last-child {
 }
 
 .navbar a {
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Playfair Display', serif;
     color: #ffffff !important;
     font-size: 15px;
     font-weight: 400;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0)
 }
 
 /* Estilo para la barra de navegación transparente después del desplazamiento */
