@@ -7,6 +7,7 @@
     font-family: 'Playfair Display', serif;
     text-shadow: 1px 1px 3px rgb(0, 0, 0)
 }
+
 .titles-2 {
     font-family: 'Playfair Display', serif;
     font-size: 52px;
@@ -77,7 +78,7 @@ ul.pagination li:last-child {
 
 .container {
     position: relative;
-  }
+}
 
 /* Estilo inicial transparente para la barra de navegación */
 .navbar {
@@ -91,6 +92,7 @@ ul.pagination li:last-child {
     width: 100%;
     height: auto;
 }
+
 .navbar a {
     font-family: 'Playfair Display', serif;
     color: #ffffff !important;
@@ -210,11 +212,13 @@ ul.pagination li:last-child {
         font-family: 'Playfair Display', serif;
         font-size: 40px;
     }
+
     .titleRestaurant {
         font-family: 'Playfair Display', serif;
         letter-spacing: 0.25em;
         font-size: 8px;
     }
+
     .btnAllProducts {
         background-color: #D7D7D7;
         color: #4F4F4F;
@@ -287,7 +291,8 @@ ul.pagination li:last-child {
 .social-icons a.instagram:hover {
     background-color: #7f1840
 }
-.social-icons a.instagram{
+
+.social-icons a.instagram {
     color: #fff;
     background-color: #ea4c89
 }
@@ -304,7 +309,8 @@ ul.pagination li:last-child {
     background-color: #F5F5F5;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
-    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5); /* Sombra solo en el lado derecho y superior/inferior */
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
+    /* Sombra solo en el lado derecho y superior/inferior */
 }
 
 .miradores-image {
@@ -314,12 +320,29 @@ ul.pagination li:last-child {
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
 }
 
+
+.miradores-image-hospedaje {
+    width: 330px; /* Igual que el ancho de .hospedaje */
+    height: 380px; /* Igual que el alto de .hospedaje */
+    padding: 0; /* Asegurarse de que no hay relleno */
+}
+
 .spot {
     width: 380px;
     height: 460px;
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
-    box-shadow: -6px 6px 10px rgba(0, 0, 0, 0.5); /* Sombra solo en el lado izquierdo y superior/inferior */
+    box-shadow: -6px 6px 10px rgba(0, 0, 0, 0.5);
+    /* Sombra solo en el lado izquierdo y superior/inferior */
+}
+
+.hospedaje {
+    width: 330px;
+    height: 380px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    box-shadow: -6px 6px 10px rgba(0, 0, 0, 0.5);
+    /* Sombra solo en el lado izquierdo y superior/inferior */
 }
 
 .button-container button:hover {
@@ -328,10 +351,14 @@ ul.pagination li:last-child {
 }
 
 .positioned-button {
-    position: absolute; /* Posicionamiento absoluto */
-    top: 50%;          /* Centrado verticalmente */
-    transform: translateY(-50%); /* Ajusta la posición para centrar exactamente */
-    z-index: 10;       /* Asegura que el botón esté sobre otros elementos */
+    position: absolute;
+    /* Posicionamiento absoluto */
+    top: 50%;
+    /* Centrado verticalmente */
+    transform: translateY(-50%);
+    /* Ajusta la posición para centrar exactamente */
+    z-index: 10;
+    /* Asegura que el botón esté sobre otros elementos */
 }
 
 /* Asegúrate de que el contenedor principal tiene posición relativa */
@@ -342,7 +369,8 @@ ul.pagination li:last-child {
 /* Ajuste específico para el botón Anterior */
 #prevButton {
     position: absolute;
-    left: -52px; /* Ajusta según el ancho del botón para que quede a la mitad fuera de la imagen */
+    left: -52px;
+    /* Ajusta según el ancho del botón para que quede a la mitad fuera de la imagen */
     top: 50%;
     transform: translateY(-50%);
     z-index: 15;
@@ -356,13 +384,16 @@ ul.pagination li:last-child {
     cursor: pointer;
 
 }
+
 #prevButton:hover {
-    background-color: #676262; /* El color que quieras al pasar el mouse */
+    background-color: #676262;
+    /* El color que quieras al pasar el mouse */
 }
 
 #nextButton {
     position: absolute;
-    right: -50px; /* Ajusta según el ancho del botón para que quede a la mitad fuera de la imagen */
+    right: -50px;
+    /* Ajusta según el ancho del botón para que quede a la mitad fuera de la imagen */
     top: 50%;
     transform: translateY(-50%);
     z-index: 10;
@@ -375,32 +406,39 @@ ul.pagination li:last-child {
     font-size: 1.5em;
     cursor: pointer;
 }
+
 #nextButton:hover {
-    background-color: #676262; /* El color que quieras al pasar el mouse */
+    background-color: #676262;
+    /* El color que quieras al pasar el mouse */
 }
 
-.containerIntro{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        display: flex;
-        justify-content: center; /* Centra horizontalmente */
-        align-items: center; /* Centra verticalmente */
-        height: 100vh; /* Puede ser necesario para algunos navegadores para centrar verticalmente */
+.containerIntro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    height: 100vh;
+    /* Puede ser necesario para algunos navegadores para centrar verticalmente */
 }
 
-.p{
+.p {
     text-align: justify;
 }
 
 .selected {
-    background-color: #ffffff !important;  /* Elige el color que prefieras para el botón seleccionado */
-    color: rgb(0, 0, 0) !important; /* Cambia el color del texto si es necesario */
+    background-color: #ffffff !important;
+    /* Elige el color que prefieras para el botón seleccionado */
+    color: rgb(0, 0, 0) !important;
+    /* Cambia el color del texto si es necesario */
     border-color: #26272b;
 }
 
-.buttons-hospedaje{
+.buttons-hospedaje {
     background-color: #479FD9;
     color: white;
     font-family: 'Playfair Display', serif;
@@ -408,7 +446,7 @@ ul.pagination li:last-child {
     margin-bottom: 3px;
 }
 
-.buttons-hospedaje:hover{
+.buttons-hospedaje:hover {
     background-color: #33749f;
     color: white;
 }
