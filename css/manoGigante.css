@@ -314,3 +314,76 @@ ul.pagination li:last-child {
     border-bottom-left-radius: 6px;
     box-shadow: -6px 6px 10px rgba(0, 0, 0, 0.5); /* Sombra solo en el lado izquierdo y superior/inferior */
 }
+
+.button-container button:hover {
+    background-color: #515151;
+    /* Color de fondo al pasar el mouse (opcional) */
+}
+
+.positioned-button {
+    position: absolute; /* Posicionamiento absoluto */
+    top: 50%;          /* Centrado verticalmente */
+    transform: translateY(-50%); /* Ajusta la posición para centrar exactamente */
+    z-index: 10;       /* Asegura que el botón esté sobre otros elementos */
+}
+
+/* Asegúrate de que el contenedor principal tiene posición relativa */
+.row-images {
+    position: relative;
+}
+
+/* Ajuste específico para el botón Anterior */
+#prevButton {
+    position: absolute;
+    left: -52px; /* Ajusta según el ancho del botón para que quede a la mitad fuera de la imagen */
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 15;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #c8c8c8;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+
+}
+#prevButton:hover {
+    background-color: #676262; /* El color que quieras al pasar el mouse */
+}
+
+#nextButton {
+    position: absolute;
+    right: -50px; /* Ajusta según el ancho del botón para que quede a la mitad fuera de la imagen */
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #c8c8c8;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+#nextButton:hover {
+    background-color: #676262; /* El color que quieras al pasar el mouse */
+}
+
+.containerIntro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente */
+        height: 100vh; /* Puede ser necesario para algunos navegadores para centrar verticalmente */
+}
+
+.p{
+    text-align: justify;
+}
+
