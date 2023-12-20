@@ -310,6 +310,13 @@ ul.pagination li:last-child {
 .miradores-image {
     width: auto;
     height: 450px;
+    border-radius: 6px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
+}
+
+.spot {
+    width: 380px;
+    height: 460px;
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
     box-shadow: -6px 6px 10px rgba(0, 0, 0, 0.5); /* Sombra solo en el lado izquierdo y superior/inferior */
@@ -387,3 +394,21 @@ ul.pagination li:last-child {
     text-align: justify;
 }
 
+.selected {
+    background-color: #ffffff !important;  /* Elige el color que prefieras para el botón seleccionado */
+    color: rgb(0, 0, 0) !important; /* Cambia el color del texto si es necesario */
+    border-color: #26272b;
+}
+
+.buttons-hospedaje{
+    background-color: #479FD9;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    margin-right: 10px;
+    margin-bottom: 3px;
+}
+
+.buttons-hospedaje:hover{
+    background-color: #33749f;
+    color: white;
+}
