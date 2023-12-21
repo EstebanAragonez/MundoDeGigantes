@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../librerias/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/inicio.css" />
     <script src="https://kit.fontawesome.com/3b4cea9a6c.js" crossorigin="anonymous"></script>
-
+    <script src="/librerias/bootstrap/js/bootstrap.bundle.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
     <title>Principal</title>
@@ -46,7 +46,7 @@
         <i class="fa fa-whatsapp my-float"></i>
     </a>
     <nav class="navbar navbar-expand-lg py-0">
-        <div class="container" >
+        <div class="container">
             <a class="navbar-brand" href="#">
                 <img class="mx-3" src="/images/logo-recortado.png" alt="" width="50px" height="50px">
             </a>
@@ -148,98 +148,123 @@
             </div>
         </div>
     </div>
-    <div class="row text-center mt-5">
+    <div class="row text-center mt-5 mb-2">
         <span class="titles text-muted" style="font-size: 32px">Sitios Que Podras Visitar</span>
     </div>
     <div class="container mt-4">
         <div class="row">
-            <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4">
-                <button id="prevButton" class="positioned-button"><i class="fa-solid fa-arrow-left"></i></button>
-                <img id="contenedor1" src="../images/morraGigante.jpeg" class="img-fluid miradores-image" alt="" />
-                <h6 id="titulo1" class="titleRestaurant mt-2">Conoce la morra gigante en la tierra de gigantes
-                </h6>
-            </div>
-            <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4">
-                <img id="contenedor2" src="../images/laManoGigante1.jpeg" class="img-fluid miradores-image" alt="" />
-                <h6 id="titulo2" class="titleRestaurant mt-2">Gigante Huila el pueblo más Instagrameable de Colombia
-                </h6>
-            </div>
-            <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4">
-                <img id="contenedor3" src="../images/rutaMontana1.jpeg" class="img-fluid miradores-image" alt="" />
-                <h6 id="titulo3" class="titleRestaurant mt-2">La ruta de la montaña, una experiencia única en Gigante
-                    Huila </h6>
-                <button id="nextButton" class="positioned-button"><i class="fa-solid fa-arrow-right"></i></button>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-wrap="true">
+                <div class="carousel-inner">
+                    <div class="carousel-item active " data-bs-interval="3000">
+                        <div class="row mt-2 mb-3 ms-3">
+                            <div class="col">
+                                <img src="../images/morraGigante.jpeg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/laManoGigante1.jpeg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/rutaMontana1.jpeg" class="img-fluid spot" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="row mt-2 mb-3 ms-3">
+                            <div class="col">
+                                <img src="../images/cabañas1.jpeg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/letrero1.jpeg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/mirtayu1.jpeg" class="img-fluid spot" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="row mt-2 mb-3 ms-3">
+                            <div class="col">
+                                <img src="../images/ManoGigante/culumpioAlas1.jpeg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/corazon2.jpeg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/miradorMichues1.jpeg" class="img-fluid spot" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="row mt-2 mb-3 ms-3">
+                            <div class="col">
+                                <img src="../images/serpiente1.jpeg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/hospedaje1.jpeg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/globo1.jpeg" class="img-fluid spot" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="row mt-2 mb-3 ms-3">
+                            <div class="col">
+                                <img src="../images/aluna1.jpeg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/ManoGigante/arcoiris1.jpeg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/kingKong1.jpeg" class="img-fluid spot" alt="...">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" style="width: 100px; height: 100px"
+                        aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" style="width: 100px; height: 100px"
+                        aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
     </div>
-    <div class="row text-center mt-5">
-        <span class="titles text-muted" style="font-size: 32px; margin-bottom: 0;">EXPERIENCIA MUNDO DE GIGANTES</span>
-    </div>
-    <div class="containerIntro d-flex justify-content-center align-items-center" style="min-height: 100vh; margin-top: 0;">
-        <div class="card mb-3 miradores-image" style="width: 80%; max-width: 860px;">
-            <div class="row g-0">
-                <div class="col-md-4">
-                    <img src="../images/logoMundoGIgantes.jpeg" class="img-fluid rounded-start" alt="...">
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h2 class="card-title">Vive experiencias</h2>
-                        <p class="card-text"><h3>
-                            Hacer turismo rural en Colombia es una de las mejores maneras de conocer nuestro país. Sin duda alguna es una oportunidad de vivir el encanto detrás de nuevas culturas y tradiciones que se revelan ante ti con la guía de la comunidad local.</h3></p>
+
+    <div class="row mt-2">
+        <div class="row text-center mt-5">
+            <span class="titles text-muted" style="font-size: 32px; margin-bottom: 0;">EXPERIENCIA MUNDO DE
+                GIGANTES</span>
+        </div>
+        <div class="containerIntro d-flex justify-content-center align-items-center mt-n1"
+            style="min-height: 100vh; margin-top: 0;">
+            <div class="card mb-3 miradores-image" style="width: 80%; max-width: 860px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../images/logoMundoGIgantes.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h2 class="card-title">Vive experiencias</h2>
+                            <p class="card-text">
+                            <h3>
+                                Hacer turismo rural en Colombia es una de las mejores maneras de conocer nuestro país.
+                                Sin duda alguna es una oportunidad de vivir el encanto detrás de nuevas culturas y
+                                tradiciones que se revelan ante ti con la guía de la comunidad local.</h3>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--     <div class="container d-flex justify-content-center">
-        <div class="container mt-5 pe-0">
-            <div class="row mt-5">
-                <div class="col-md-12 col-sm-12 col-xl-6 col-lg-6">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12 col-xl-2 col-lg-2">
-                            <div style="
-                    border-radius: 50%;
-                    width: 100px;
-                    height: 100px;
-                    background-color: grey;
-                  "></div>
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-xl-10 col-lg-10">
-                            <span class="titles text-muted" style="font-size: 17px">"This is a testimonial Cras dapibus.
-                                Vivamus elementum semper
-                                nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
-                                porttitor eu, consequat vitae, eleifend ac, enim. Aliquam
-                                lorem ante, dapibus in, viverra quis.</span>
-                            <br />
-                            <h6 class="titleRestaurant mt-2">James thomas</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12 col-sm-12 col-xl-6 col-lg-6">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12 col-xl-2 col-lg-2">
-                            <div style="
-                    border-radius: 50%;
-                    width: 100px;
-                    height: 100px;
-                    background-color: grey;
-                  "></div>
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-xl-10 col-lg-10">
-                            <span class="titles text-muted" style="font-size: 17px">"One morning, when Gregor Samsa woke
-                                from troubled dreams, he
-                                found himself transformed in his bed into a horrible vermin.
-                                He lay on his armour-like back, and if he lifted his head a
-                                little he could see.</span>
-                            <br />
-                            <h6 class="titleRestaurant mt-2">Sofia brichet</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <br>
     <div class="container">
         <hr class="mt-2">
     </div>
@@ -292,71 +317,7 @@
         const navbar = document.querySelector(".navbar");
         navbar.classList.add("navbar-transparent");
     });
-    const data = [
-        {
-            images: ["../images/cabañas1.jpeg", "../images/letrero1.jpeg", "../images/mirtayu1.jpeg"],
-            titles: ["Mereces consentirte y disfrutar de un bonito lugar", "Disfruta de increíbles spots fotográficos y llévate el mejor recuerdo", "La gran Gigante Mirthayú renace la historia de los Gigantes."],
-        },
-        {
-            images: ["../images/ManoGigante/culumpioAlas1.jpeg", "../images/corazon2.jpeg", "../images/miradorMichues1.jpeg"],
-            titles: ["Arte en la montaña más hermosa de Colombia", "Sueña en Grande en la tierra de Gigantes", "Un mirador imperdible en tú viaje por el mundo de Gigantes"],
-        },
-        {
-            images: ["../images/serpiente1.jpeg", "../images/hospedaje1.jpeg", "../images/globo1.jpeg"],
-            titles: ["Sé feliz en un mágico lugar rodeado de naturaleza ", "un lugar para disfrutar de hermosos espacios y hospedarte con la mejor vista", "disfrutar junto a tu persona favorita de un mágico lugar en la tierra de Gigantes."],
-        },
-        {
-            images: ["../images/aluna1.jpeg", "../images/ManoGigante/arcoiris1.jpeg", "../images/kingKong1.jpeg"],
-            titles: ["8 Motivos que hacen de está tierra mágica un mundo de Gigantes.", "Atrévete a vivir las mejores experiencias en la montaña más hermosa de Colombia, la mano del gigante ", "El Gigante King Kong en el mundo de Gigantes dónde sus leyendas se mantienen vivas."],
-        },
-        {
-            images: ["../images/morraGigante.jpeg", "../images/laManoGigante1.jpeg", "../images/rutaMontana1.jpeg"],
-            titles: ["Conoce la morra gigante en la tierra de gigantes.", "Gigante Huila el pueblo más Instagrameable de Colombia.", "La ruta de la montaña, una experiencia única en Gigante Huila."],
-        },
-    ];
-    let currentIndex = 0;
-    let intervalId;
-
-    function startInterval() {
-        intervalId = setInterval(() => {
-            currentIndex = (currentIndex + 1) % data.length; // Avance automático hacia adelante
-            updateContent();
-        }, 5000);
-    }
-
-    function resetInterval() {
-        clearInterval(intervalId);
-        startInterval();
-    }
-
-    function updateContent() {
-        console.log("Actualizando contenido. Índice actual: " + currentIndex);
-        for (let i = 1; i <= 3; i++) {
-            document.getElementById(`contenedor${i}`).src = data[currentIndex].images[i - 1];
-            document.getElementById(`titulo${i}`).innerText = data[currentIndex].titles[i - 1];
-        }
-    }
-
-    startInterval();
-
-    document.getElementById('prevButton').addEventListener('click', function () {
-        console.log("Botón Anterior presionado. Índice antes de actualizar: " + currentIndex);
-        currentIndex = (currentIndex - 1 + data.length) % data.length;
-        console.log("Índice después de actualizar: " + currentIndex);
-        updateContent();
-        resetInterval();
-    });
-
-    document.getElementById('nextButton').addEventListener('click', function () {
-        console.log("Botón Siguiente presionado. Índice antes de actualizar: " + currentIndex);
-        currentIndex = (currentIndex + 1) % data.length;
-        console.log("Índice después de actualizar: " + currentIndex);
-        updateContent();
-        resetInterval();
-    });
-
-
-
+ 
 </script>
 
 </html>

@@ -327,8 +327,7 @@ ul.pagination li:last-child {
 .spot {
     width: 380px;
     height: 460px;
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
+    border-radius: 6px;
     box-shadow: -6px 6px 10px rgba(0, 0, 0, 0.5);
     /* Sombra solo en el lado izquierdo y superior/inferior */
 }

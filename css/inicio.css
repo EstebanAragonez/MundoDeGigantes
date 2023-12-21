@@ -395,4 +395,13 @@ ul.pagination li:last-child {
     text-align: justify;
 }
 
+.spot {
+    width: 380px;
+    height: 460px;
+    border-radius: 6px;
+    box-shadow: -6px 6px 10px rgba(0, 0, 0, 0.5);
+    /* Sombra solo en el lado izquierdo y superior/inferior */
+}
 
+.mt-n1 { margin-top: -5rem !important; }
+.mb-n1 { margin-bottom: -5rem !important; }
