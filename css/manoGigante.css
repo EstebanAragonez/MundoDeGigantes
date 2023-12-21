@@ -19,11 +19,8 @@
 }
 
 .backgoundImage {
-    background-image: url("../images/ManoGigante/IMG_4694_2.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
+    object-fit: cover;
+    object-position: bottom;
     height: 80vh;
 }
 
