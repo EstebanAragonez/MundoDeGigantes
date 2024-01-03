@@ -6,6 +6,7 @@
 .titles {
     font-family: 'Playfair Display', serif;
 }
+
 .titleRestaurant {
     font-family: 'Playfair Display', serif;
     letter-spacing: 0.25em;
@@ -126,18 +127,19 @@ ul.pagination li:last-child {
     width: 100%;
     padding: 0;
     overflow: hidden;
-  }
+}
 
-  .embed-responsive::before {
+.embed-responsive::before {
     display: block;
     content: "";
-  }
+}
 
-  .embed-responsive-16by9::before {
-    padding-top: 56.25%; /* 16:9 Aspect Ratio */
-  }
+.embed-responsive-16by9::before {
+    padding-top: 56.25%;
+    /* 16:9 Aspect Ratio */
+}
 
-  .embed-responsive-item {
+.embed-responsive-item {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -145,7 +147,7 @@ ul.pagination li:last-child {
     width: 100%;
     height: 100%;
     border: 0;
-  }
+}
 
 
 
@@ -309,7 +311,8 @@ ul.pagination li:last-child {
 .social-icons a.instagram:hover {
     background-color: #7f1840
 }
-.social-icons a.instagram{
+
+.social-icons a.instagram {
     color: #fff;
     background-color: #ea4c89
 }
@@ -329,10 +332,14 @@ ul.pagination li:last-child {
 }
 
 .positioned-button {
-    position: absolute; /* Posicionamiento absoluto */
-    top: 50%;          /* Centrado verticalmente */
-    transform: translateY(-50%); /* Ajusta la posición para centrar exactamente */
-    z-index: 10;       /* Asegura que el botón esté sobre otros elementos */
+    position: absolute;
+    /* Posicionamiento absoluto */
+    top: 50%;
+    /* Centrado verticalmente */
+    transform: translateY(-50%);
+    /* Ajusta la posición para centrar exactamente */
+    z-index: 10;
+    /* Asegura que el botón esté sobre otros elementos */
 }
 
 /* Asegúrate de que el contenedor principal tiene posición relativa */
@@ -343,7 +350,8 @@ ul.pagination li:last-child {
 /* Ajuste específico para el botón Anterior */
 #prevButton {
     position: absolute;
-    left: -52px; /* Ajusta según el ancho del botón para que quede a la mitad fuera de la imagen */
+    left: -52px;
+    /* Ajusta según el ancho del botón para que quede a la mitad fuera de la imagen */
     top: 50%;
     transform: translateY(-50%);
     z-index: 15;
@@ -357,13 +365,16 @@ ul.pagination li:last-child {
     cursor: pointer;
 
 }
+
 #prevButton:hover {
-    background-color: #676262; /* El color que quieras al pasar el mouse */
+    background-color: #676262;
+    /* El color que quieras al pasar el mouse */
 }
 
 #nextButton {
     position: absolute;
-    right: -50px; /* Ajusta según el ancho del botón para que quede a la mitad fuera de la imagen */
+    right: -50px;
+    /* Ajusta según el ancho del botón para que quede a la mitad fuera de la imagen */
     top: 50%;
     transform: translateY(-50%);
     z-index: 10;
@@ -376,22 +387,27 @@ ul.pagination li:last-child {
     font-size: 1.5em;
     cursor: pointer;
 }
+
 #nextButton:hover {
-    background-color: #676262; /* El color que quieras al pasar el mouse */
+    background-color: #676262;
+    /* El color que quieras al pasar el mouse */
 }
 
-.containerIntro{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        display: flex;
-        justify-content: center; /* Centra horizontalmente */
-        align-items: center; /* Centra verticalmente */
-        height: 100vh; /* Puede ser necesario para algunos navegadores para centrar verticalmente */
+.containerIntro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    height: 100vh;
+    /* Puede ser necesario para algunos navegadores para centrar verticalmente */
 }
 
-.p{
+.p {
     text-align: justify;
 }
 
@@ -403,5 +419,10 @@ ul.pagination li:last-child {
     /* Sombra solo en el lado izquierdo y superior/inferior */
 }
 
-.mt-n1 { margin-top: -5rem !important; }
-.mb-n1 { margin-bottom: -5rem !important; }
+.mt-n1 {
+    margin-top: -5rem !important;
+}
+
+.mb-n1 {
+    margin-bottom: -5rem !important;
+}

@@ -446,3 +446,19 @@ ul.pagination li:last-child {
     background-color: #33749f;
     color: white;
 }
+
+#button1{
+    box-shadow: -6px 6px 10px rgba(0, 0, 0, 0.5);
+}
+#button2{
+    box-shadow: -6px 6px 10px rgba(0, 0, 0, 0.5);
+}
+#button3{
+    box-shadow: -6px 6px 10px rgba(0, 0, 0, 0.5);
+}
+#button4{
+    box-shadow: -6px 6px 10px rgba(0, 0, 0, 0.5);
+}
+#button5{
+    box-shadow: -6px 6px 10px rgba(0, 0, 0, 0.5);
+}
