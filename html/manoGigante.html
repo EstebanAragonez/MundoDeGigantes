@@ -19,7 +19,7 @@
             position: fixed;
             width: 60px;
             height: 60px;
-            bottom: 40px;
+            bottom: 60px;
             right: 40px;
             background-color: #25d366;
             color: #FFF;
@@ -420,7 +420,11 @@
                         </li>
                         <li class="me-2">
                             <button id="button5" class="btn buttons-hospedaje"
-                                onclick="selectButton('button5'); showContent('content5')">Nido del Azulejo</button>
+                                onclick="selectButton('button5'); showContent('content5')">Nido del azulejo</button>
+                        </li>
+                        <li class="me-2">
+                            <button id="button6" class="btn buttons-hospedaje"
+                                onclick="selectButton('button6'); showContent('content6')">Nomada glamping</button>
                         </li>
                     </ul>
                 </div>
@@ -565,6 +569,26 @@
                             </div>
                         </div>
                     </div>
+                    <div id="content6" class="card-body" style="display: none;">
+                        <div class="row mt-4">
+                            <div class="col-md-12 col-sm-12 col-xl-4 col-lg-4 p-0 miradores-image-hospedaje">
+                                <img id="habitacion6" src="../images/ManoGigante/hospedaje/nomadaGlamping1.jpeg"
+                                    class="img-fluid hospedaje" alt="">
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xl-8 col-lg-8 p-2 ps-3 my-custom-div-hospedaje"
+                                style="background-color: #F5F5F5;">
+                                <h2 class="titles text-muted mt-2">Nomada glampin</h2>
+                                <p class="text-muted mt-2" style="text-align: justify; padding-left: 25px;
+                                padding-right: 25px;">Descubre el "Nomada glampin" COLOCAR TEXTO
+                                </p>
+                                <!-- <p class=" mt-4">READ MORE</p> -->
+                                <p class="titles text-muted mt-4" style="padding-left: 20px;
+                                padding-right: 20px;"> Reserva
+                                    tu estancia en el Nido del Azulejo para una inolvidable unión <br>
+                                    de naturaleza y confort.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -632,14 +656,14 @@
                         </div>
 
                         <div class="col-md-4 col-sm-6 col-xs-12">
-                            <ul class="social-icons">
+                            <ul class="social-icons" style="white-space: nowrap;">
                                 <li><a class="facebook"
                                         href="https://web.facebook.com/profile.php?id=100063679368501"><i
                                             class="fa fa-facebook icono-grande"></i></a></li>
                                 <li><a class="instagram"
                                         href="https://instagram.com/mundodegigantes?igshid=OGQ5ZDc2ODk2ZA=="><i
                                             class="fa-brands fa-instagram fa-lg"></i></a></li>
-                                <li><i class="fa-solid fa-envelope"></i> mundoGigantes@gmail.com</li>
+                                <li><i class="fa-solid fa-envelope"></i> lamanodelgigantehuila@gmail.com</li>
                             </ul>
                         </div>
                     </div>
@@ -696,33 +720,33 @@
 
     const habitaciones = [
         {
-            habitacion: ["../images/ManoGigante/hospedaje/nidoTurpial2.jpeg", "../images/ManoGigante/hospedaje/nidoColibri2.jpg", "../images/ManoGigante/hospedaje/nidoCardenal2.jpeg", "../images/ManoGigante/hospedaje/hoste2.jpeg", "../images/ManoGigante/hospedaje/azulejo2.jpg",],
+            habitacion: ["../images/ManoGigante/hospedaje/nidoTurpial2.jpeg", "../images/ManoGigante/hospedaje/nidoColibri2.jpg", "../images/ManoGigante/hospedaje/nidoCardenal2.jpeg", "../images/ManoGigante/hospedaje/hoste2.jpeg", "../images/ManoGigante/hospedaje/azulejo2.jpg", "../images/ManoGigante/hospedaje/nomadaGlamping2.jpeg"],
             /*  titles: ["", "", ""], */
         },
         {
-            habitacion: ["../images/ManoGigante/hospedaje/nidoTurpial3.jpeg", "../images/ManoGigante/hospedaje/nidoColibri3.jpg", "../images/ManoGigante/hospedaje/nidoCardenal3.jpeg", "../images/ManoGigante/hospedaje/hoste3.jpeg", "../images/ManoGigante/hospedaje/azulejo3.jpeg"],
+            habitacion: ["../images/ManoGigante/hospedaje/nidoTurpial3.jpeg", "../images/ManoGigante/hospedaje/nidoColibri3.jpg", "../images/ManoGigante/hospedaje/nidoCardenal3.jpeg", "../images/ManoGigante/hospedaje/hoste3.jpeg", "../images/ManoGigante/hospedaje/azulejo3.jpeg", "../images/ManoGigante/hospedaje/nomadaGlamping3.jpeg"],
             /*  titles: ["", "", ""], */
         },
         {
-            habitacion: ["../images/ManoGigante/hospedaje/nidoTurpial4.jpeg", "../images/ManoGigante/hospedaje/nidoColibri4.jpg", "../images/ManoGigante/hospedaje/nidoCardenal4.jpeg", "../images/ManoGigante/hospedaje/hoste4.jpeg", "../images/ManoGigante/hospedaje/azulejo4.jpeg"],
+            habitacion: ["../images/ManoGigante/hospedaje/nidoTurpial4.jpeg", "../images/ManoGigante/hospedaje/nidoColibri4.jpg", "../images/ManoGigante/hospedaje/nidoCardenal4.jpeg", "../images/ManoGigante/hospedaje/hoste4.jpeg", "../images/ManoGigante/hospedaje/azulejo4.jpeg", "../images/ManoGigante/hospedaje/nomadaGlamping4.jpeg"],
             /*  titles: ["", "", ""], */
         },
         {
-            habitacion: ["../images/ManoGigante/hospedaje/nidoTurpial5.jpeg", "../images/ManoGigante/hospedaje/nidoColibri5.jpeg", "../images/ManoGigante/hospedaje/nidoCardenal15.jpeg", "../images/ManoGigante/hospedaje/hoste5.jpeg", "../images/ManoGigante/hospedaje/azulejo5.jpeg"],
+            habitacion: ["../images/ManoGigante/hospedaje/nidoTurpial5.jpeg", "../images/ManoGigante/hospedaje/nidoColibri5.jpeg", "../images/ManoGigante/hospedaje/nidoCardenal15.jpeg", "../images/ManoGigante/hospedaje/hoste5.jpeg", "../images/ManoGigante/hospedaje/azulejo5.jpeg", "../images/ManoGigante/hospedaje/nomadaGlamping5.jpeg"],
             /*  titles: ["", "", ""], */
         },
         {
-            habitacion: ["../images/ManoGigante/hospedaje/nidoTurpial6.jpeg", "../images/ManoGigante/hospedaje/nidoColibri6.jpeg", "../images/ManoGigante/hospedaje/nidoCardenal6.jpeg", "../images/ManoGigante/hospedaje/hoste6.jpeg", "../images/ManoGigante/hospedaje/azulejo6.jpeg"],
+            habitacion: ["../images/ManoGigante/hospedaje/nidoTurpial6.jpeg", "../images/ManoGigante/hospedaje/nidoColibri6.jpeg", "../images/ManoGigante/hospedaje/nidoCardenal6.jpeg", "../images/ManoGigante/hospedaje/hoste6.jpeg", "../images/ManoGigante/hospedaje/azulejo6.jpeg", "../images/ManoGigante/hospedaje/nomadaGlamping6.jpeg"],
             /*  titles: ["", "", ""], */
         },
         {
-            habitacion: ["../images/ManoGigante/hospedaje/nidoTurpial7.jpeg", "../images/ManoGigante/hospedaje/nidoColibri7.jpeg", "../images/ManoGigante/hospedaje/nidoCardenal7.jpeg", "../images/ManoGigante/hospedaje/hoste7.jpeg", "../images/ManoGigante/spot6.jpg",],
+            habitacion: ["../images/ManoGigante/hospedaje/nidoTurpial7.jpeg", "../images/ManoGigante/hospedaje/nidoColibri7.jpeg", "../images/ManoGigante/hospedaje/nidoCardenal7.jpeg", "../images/ManoGigante/hospedaje/hoste7.jpeg", "../images/ManoGigante/spot6.jpg", "../images/ManoGigante/hospedaje/nomadaGlamping7.jpeg"],
             /*  titles: ["", "", ""], */
         },
         {
-            habitacion: ["../images/ManoGigante/hospedaje/nidoTurpial1.jpeg", "../images/ManoGigante/hospedaje/nidoColibri1.jpg", "../images/ManoGigante/hospedaje/nidoCardenal1.jpeg", "../images/ManoGigante/hospedaje/hoste1.jpeg", "../images/ManoGigante/hospedaje/azulejo1.jpg"],
+            habitacion: ["../images/ManoGigante/hospedaje/nidoTurpial1.jpeg", "../images/ManoGigante/hospedaje/nidoColibri1.jpg", "../images/ManoGigante/hospedaje/nidoCardenal1.jpeg", "../images/ManoGigante/hospedaje/hoste1.jpeg", "../images/ManoGigante/hospedaje/azulejo1.jpg", "../images/ManoGigante/hospedaje/nomadaGlamping7.jpeg"],
             /*  titles: ["", "", ""], */
-        },
+        }
 
     ];
 
@@ -742,7 +766,7 @@
     }
 
     function updateContentHospedaje() {
-        for (let i = 1; i <= 5; i++) { // Asegúrate de que este bucle coincida con el número de imágenes de hospedaje
+        for (let i = 1; i <= 6; i++) { // Asegúrate de que este bucle coincida con el número de imágenes de hospedaje
             document.getElementById(`habitacion${i}`).src = habitaciones[contadorIndex].habitacion[i - 1];
         }
     }
