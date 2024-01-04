@@ -409,6 +409,8 @@ ul.pagination li:last-child {
 
 .p {
     text-align: justify;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .spot {
