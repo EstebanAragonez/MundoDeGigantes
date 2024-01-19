@@ -5,16 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../librerias/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/lamorra.css">
+    <link rel="stylesheet" href="../css/manoGigante.css">
+    <script src="https://kit.fontawesome.com/3b4cea9a6c.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <script src="/librerias/bootstrap/js/bootstrap.bundle.min.js"></script>
     <title>La Morra</title>
 </head>
 
 <body style="overflow-x: hidden">
-    <nav class="navbar navbar-expand-lg">
+    <style>
+        .float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 60px;
+            right: 40px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+        }
+
+        .float:hover {
+            text-decoration: none;
+            color: #25d366;
+            background-color: #fff;
+        }
+
+        .my-float {
+            margin-top: 16px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=573213123861&text=Hola%21%20Quisiera%20asesoria." class="float"
+        target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
+    <nav class="navbar navbar-expand-lg py-0">
         <div class="container">
-            <!-- <a class="navbar-brand" href="#">Mi Sitio Web</a> -->
+            <a class="navbar-brand" href="#">
+                <img class="mx-3" src="/images/La_Morra/logo.png" alt="" width="50px" height="50px">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -46,207 +81,432 @@
             </div>
         </div>
     </nav>
-    <div class="d-flex align-items-center justify-content-center backgoundImage" style="height: 50vh">
-        <span class="titles" style="font-size: 52px; color: #000">La Morra</span>
-    </div>
-    <div class="row d-flex justify-content-center">
-        <div class="mt-5 text-center " style="width: 34%">
-            <p class="text-muted"> Somos un mirador natural de 360 grados, donde ofrecemos servicios de hospedaje, restaurante y una amplia gama de actividades, como caminatas ecológicas, pesca recreativa, zona de hamacas y mucho más. Descubre todo lo que tenemos para ti en un entorno natural incomparable.
-            En nuestro mirador, te sumergirás en una experiencia completamente natural, donde la tranquilidad y la paz se entrelazan con una inspiración inigualable, todo ello ante la impresionante belleza natural de nuestra región. Desde este punto privilegiado, disfrutarás de una vista panorámica de 360 grados, que te conectará de manera única con los tesoros paisajísticos que nos rodean.</p>
+    <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
         </div>
-    </div>
-    <div class="row text-center mt-5">
-        <span class="titles" style="font-size: 52px; color: #000">Restaurante</span>
-    </div>
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-lg-3 col-xl-3 d-flex justify-content-center">
-                <div class="row">
-                    <img src="../images/futurama.jpg" class="img-fluid" alt="">
-                    <h6 class="titleRestaurant text-muted mt-2">This is product’s name</h6>
-                    <p class="text-muted mt-2">Crafted by - Arun Magar</p>
-                    <p class="text-muted mt-2">$560</p>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="/images/La_Morra/portadaco.jpg" class="d-block w-100 backgoundImage" alt="...">
+                <div class="carousel-caption" style="position: absolute; top: 45%">
+                    <div class="text-center">
+                        <span class="title1" style="font-size: 60px; color: #ffffff; font-weight: 400;">La Morra</span>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-12 col-sm-12 col-lg-3 col-xl-3">
-                <img src="../images/futurama.jpg" class="img-fluid" alt="">
-                <h6 class="titleRestaurant text-muted mt-2">This is product’s name</h6>
-                <p class="text-muted mt-2">Crafted by - Arun Magar</p>
-                <p class="text-muted mt-2">$560</p>
+
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="/images/La_Morra/portada3co.jpg" class="d-block w-100 backgoundImage" alt="...">
+                <div class="carousel-caption" style="position: absolute; top: 45%">
+                    <div class="text-center">
+                        <span class="title1" style="font-size: 60px; color: #ffffff; font-weight: 400;">La Morra</span>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-12 col-sm-12 col-lg-3 col-xl-3">
-                <img src="../images/futurama.jpg" class="img-fluid" alt="">
-                <h6 class="titleRestaurant text-muted mt-2">This is product’s name</h6>
-                <p class="text-muted mt-2">Crafted by - Arun Magar</p>
-                <p class="text-muted mt-2">$560</p>
+            <div class="carousel-item" data-bs-interval="3000 ">
+                <img src="/images/La_Morra/La_morra_5pa.jpg" class="d-block w-100 backgoundImage" alt="...">
+                <div class="carousel-caption" style="position: absolute; top: 45%">
+                    <div class="text-center">
+                        <span class="title1" style="font-size: 60px; color: #ffffff; font-weight: 400;">La Morra</span>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-12 col-sm-12 col-lg-3 col-xl-3">
-                <img src="../images/futurama.jpg" class="img-fluid" alt="">
-                <h6 class="titleRestaurant text-muted mt-2">This is product’s name</h6>
-                <p class="text-muted mt-2">Crafted by - Arun Magar</p>
-                <p class="text-muted mt-2">$560</p>
-            </div>
-            <div class="row d-flex justify-content-center mt-5 ">
-                <button class="titleRestaurant btnAllProducts p-2">VIEW ALL PRODUCTS</button>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" style="width: 100px; height: 100px" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" style="width: 100px; height: 100px" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    </div>
+    <!-- <div class="text-center d-flex align-items-center justify-content-center backgoundImage">
+        <div class="text-center">
+            <span class="title1" style="font-size: 60px; color: #ffffff; font-weight: 400">Mano del Gigante</span>
+
+        </div>
+    </div> -->
+    <br>
+    <div class="row d-flex justify-content-center ">
+        <div class="text-center d-none d-md-none d-lg-none d-xl-block box_shadow" style="
+          background-color: #f5f5f5;
+          width: 50%;
+        
+        ">
+            <div class="row">
+                <div class="p-4">
+                    <div>
+                        <span class="" style="font-size: 15px; color: #000; margin-top: 40%">Explora el encanto de La Morra, un impresionante mirador natural que te ofrece vistas panorámicas únicas de 360 grados. Déjate cautivar por la magia del paisajismo, inmerso en la tranquilidad de la naturaleza. Aquí, te aguardan diversas actividades para disfrutar en compañía de tus seres queridos, creando recuerdos inolvidables. En La Morra, cada instante se transforma en una oportunidad para experimentar y compartir la majestuosidad y belleza del entorno natural en su esplendor puro.
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <div class="row text-center mt-5">
-        <span class="titles" style="font-size: 52px; color: #000">ATRACCIONES</span>
+        <span class="titles-2" style="color: #000">ACTIVIDADES</span>
     </div>
-    <div class="container mt-5">
+    <div class="container mt-3">
+        <div class="row d-flex justify-content-center">
+            <div class="row mt-4">
+                <div class="col-md-12 col-sm-12 col-xl-4 col-lg-4 p-0 miradores-image-container">
+                    <img src="../images/La_Morra/cafe2.jpg" class="img-fluid miradores-image h-100" alt="">
+                </div>
+                <div class="col-md-12 col-sm-12 col-xl-8 col-lg-8 p-2 ps-3 my-custom-div"
+                    style="background-color: #F5F5F5;">
+                    <h5 class="text-muted mt-2">SENDERISMO DE CAFÉ</h5><br><br>
+                    <h5 <p class="text-muted mt-2">Paso a paso en un camino excepcional: una caminata guiada por un experto en café, rodeado por la serenidad de la naturaleza. Un viaje donde cada paso se funde con el conocimiento del café y el abrazo verde del entorno.</p></h5>
+                    <p class=" mt-4"></p>
+                    <p class="titles text-muted mt-4"></p>
+                    <br><br><br>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
+                            <img src="../images/La_Morra/cafe1.jpg"
+                                class="img-fluid rounded-circle imageAtracciones" alt="">
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
+                            <img src="../images/La_Morra/cafe3.jpg"
+                                class="img-fluid rounded-circle imageAtracciones" alt="">
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
+                            <img src="../images/La_Morra/afe4.jpg"
+                                class="img-fluid rounded-circle imageAtracciones" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-12 col-sm-12 col-xl-4 col-lg-4 p-0 miradores-image-container">
+                    <img src="../images/La_Morra/spot24.jpg" class="img-fluid miradores-image h-100" alt="">
+                </div>
+                <div class="col-md-12 col-sm-12 col-xl-8 col-lg-8 p-2 ps-3 my-custom-div"
+                    style="background-color: #F5F5F5;">
+                    <h5 class="text-muted mt-2">CUBO SOMA GIGANTE</h5><br><br>
+                    <h5 <p class="text-muted mt-2">¡Únete a  la diversión tridimensional del Cubo Soma gigante ! Ensambla las siete piezas para formar el cubo completo. ¿Aceptas el desafío? ¡Dale rienda, suelta a tu creatividad y disfruta del juego!</p></h5>
+                    <p class=" mt-4"></p>
+                    <p class="text-muted mt-2"></p> 
+                    <br><br><br>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
+                            <img src="../images/La_Morra/spot23.jpg"
+                                class="img-fluid rounded-circle imageAtracciones" alt="">
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
+                            <img src="../images/La_Morra/spot25.jpg"
+                                class="img-fluid rounded-circle imageAtracciones" alt="">
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
+                            <img src="../images/La_Morra/spot22.jpg"
+                                class="img-fluid rounded-circle imageAtracciones" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="container">
+        <hr class="mt-2">
+    </div>
+    <div class="row text-center mt-5">
+        <span class="titles text-muted" style="font-size: 32px">SPOTS FOTOGRAFICOS</span>
+    </div>
+    <div class="container mt-4">
         <div class="row">
-            <div class="row">
-                <div class="col-md-12 col-sm-12 col-xl-4 col-lg-4 p-0">
-                    <img src="../images/La_Morra/La_Morra_2.jpg" class="img-fluid h-100" alt="">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-wrap="true">
+                <div class="carousel-inner">
+                    <div class="carousel-item active " data-bs-interval="3000">
+                        <div class="row mt-2 mb-3 ms-3">
+                            <div class="col">
+                                <img src="../images/La_Morra/aro1.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/La_Morra/globo1.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/La_Morra/mariposa1.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="row mt-2 mb-3 ms-3">
+                            <div class="col">
+                                <img src="../images/La_Morra/globo2.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/La_Morra/plumas1.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/La_Morra/aro2.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="row mt-2 mb-3 ms-3">
+                            <div class="col">
+                                <img src="../images/La_Morra/mariposa2.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/La_Morra/aro3.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/La_Morra/globo3.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="row mt-2 mb-3 ms-3">
+                            <div class="col">
+                                <img src="../images/La_Morra/globo4.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/La_Morra/serpiente1.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/La_Morra/plumas2.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="row mt-2 mb-3 ms-3">
+                            <div class="col">
+                                <img src="../images/La_Morra/mariposa3.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/La_Morra/serpiente2.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/La_Morra/plumas3.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="row mt-2 mb-3 ms-3">
+                            <div class="col">
+                                <img src="../images/La_Morra/mariposa4.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/La_Morra/plumas4.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/La_Morra/serpiente3.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                        </div>
+                    </div>
+
 
                 </div>
-                <div class="col-md-12 col-sm-12 col-xl-8 col-lg-8 p-2 ps-3" style="background-color: #F5F5F5;">
-                    <h5 class="titles text-muted mt-2">SENDERISMO</h5>
-                    <p class="text-muted mt-2">This is a title to explain the product produced or created by the person
-                        on the left. Gummies tart brownie sugar plum dragée chocolate bar sweet dessert...</p>
-                    <p class=" mt-4">READ MORE</p>
-                    <p class="titles text-muted mt-4">POPULAR PRODUCTS</p>
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
-                            <img src="../images/futurama.jpg" class="img-fluid rounded-circle imageAtracciones" alt="">
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
-                            <img src="../images/futurama.jpg" class="img-fluid rounded-circle imageAtracciones" alt="">
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
-                            <img src="../images/futurama.jpg" class="img-fluid rounded-circle imageAtracciones" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-4">
-                <div class="col-md-12 col-sm-12 col-xl-4 col-lg-4 p-0">
-                    <img src="../images/La_Morra/La_Morra_3.jpg" class="img-fluid h-100" alt="">
-                </div>
-                <div class="col-md-12 col-sm-12 col-xl-8 col-lg-8 p-2 ps-3" style="background-color: #F5F5F5;">
-                    <h5 class="titles text-muted mt-2">SENDERISMO</h5>
-                    <p class="text-muted mt-2">This is a title to explain the product produced or created by the person
-                        on the left. Gummies tart brownie sugar plum dragée chocolate bar sweet dessert...</p>
-                    <p class=" mt-4">READ MORE</p>
-                    <p class="titles text-muted mt-4">POPULAR PRODUCTS</p>
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
-                            <img src="../images/futurama.jpg" class="img-fluid rounded-circle imageAtracciones" alt="">
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
-                            <img src="../images/futurama.jpg" class="img-fluid rounded-circle imageAtracciones" alt="">
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
-                            <img src="../images/futurama.jpg" class="img-fluid rounded-circle imageAtracciones" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-4">
-                <div class="col-md-12 col-sm-12 col-xl-4 col-lg-4 p-0">
-                    <img src="../images/La_Morra/La_Morra_4.jpg" class="img-fluid h-100" alt="">
-                </div>
-                <div class="col-md-12 col-sm-12 col-xl-8 col-lg-8 p-2 ps-3" style="background-color: #F5F5F5;">
-                    <h5 class="titles text-muted mt-2">SENDERISMO</h5>
-                    <p class="text-muted mt-2">This is a title to explain the product produced or created by the person
-                        on the left. Gummies tart brownie sugar plum dragée chocolate bar sweet dessert...</p>
-                    <p class=" mt-4">READ MORE</p>
-                    <p class="titles text-muted mt-4">POPULAR PRODUCTS</p>
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
-                            <img src="../images/futurama.jpg" class="img-fluid rounded-circle imageAtracciones" alt="">
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
-                            <img src="../images/futurama.jpg" class="img-fluid rounded-circle imageAtracciones" alt="">
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
-                            <img src="../images/futurama.jpg" class="img-fluid rounded-circle imageAtracciones" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-4">
-                <div class="col-md-12 col-sm-12 col-xl-4 col-lg-4 p-0">
-                    <img src="../images/La_Morra/La_morra_5.jpg" class="img-fluid h-100" alt="">
-                </div>
-                <div class="col-md-12 col-sm-12 col-xl-8 col-lg-8 p-2 ps-3" style="background-color: #F5F5F5;">
-                    <h5 class="titles text-muted mt-2">SENDERISMO</h5>
-                    <p class="text-muted mt-2">This is a title to explain the product produced or created by the person
-                        on the left. Gummies tart brownie sugar plum dragée chocolate bar sweet dessert...</p>
-                    <p class=" mt-4">READ MORE</p>
-                    <p class="titles text-muted mt-4">POPULAR PRODUCTS</p>
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
-                            <img src="../images/futurama.jpg" class="img-fluid rounded-circle imageAtracciones" alt="">
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
-                            <img src="../images/futurama.jpg" class="img-fluid rounded-circle imageAtracciones" alt="">
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
-                            <img src="../images/futurama.jpg" class="img-fluid rounded-circle imageAtracciones" alt="">
-                        </div>
-                    </div>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" style="width: 100px; height: 100px"
+                        aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" style="width: 100px; height: 100px"
+                        aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
             </div>
         </div>
-        <div class="row d-flex justify-content-center mt-5 ">
-            <button class="titleRestaurant btnAllProducts p-2">VIEW ALL PRODUCTS</button>
-        </div>
-        <hr class="mt-5">
-        <div class="row text-center mt-5">
-            <span class="titles" style="font-size: 52px; color: #000">HOSPEDAJE</span>
-        </div>
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-md-12 col-sm-12 col-xl-6 col-lg-6">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12 col-xl-2 col-lg-2">
-                            <div style="border-radius: 50%;width: 100px;height: 100px; background-color: grey"></div>
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-xl-10 col-lg-10">
-                            <span class="titles text-muted" style="font-size: 20px;">" MIRADOR DON ARNULFO</span>
-                        </div>
-                        <div class="row" style="height: 465px">
-                            <div class="col-md-12 col-sm-12 col-xl-12 col-lg-12 backgoundHospedaje">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12 col-sm-12 col-xl-6 col-lg-6">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12 col-xl-2 col-lg-2">
-                            <div style="border-radius: 50%;width: 100px;height: 100px; background-color: grey"></div>
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-xl-10 col-lg-10">
-                            <span class="titles text-muted" style="font-size: 20px;">" MIRADOR DON ARNULFO</span>
-                        </div>
-                        <div class="row" style="height: 465px">
-                            <div class="col-md-12 col-sm-12 col-xl-12 col-lg-12 backgoundHospedaje">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr class="mt-5">
     </div>
+    <!-- <div class="row d-flex justify-content-center mt-5 ">
+        <button class="btnAllProducts p-2">MAS SERVICIOS</button>
+    </div> -->
+    <br><br><br>
     <div class="container">
-        <div class="arrow-container">
-            <img src="../images/arrow.png" class="arrow" alt="">
+        <hr class="mt-2">
+    </div>
+    <div class="row text-center mt-5">
+        <span class="titles-2" style="color: #000">HOSPEDAJE</span>
+    </div>
+    <div class="container mt-5">
+        <div class="row d-flex justify-content-center mt-5 ">
+            <div class="card text-center justify-content-center" style="border: 0;">
+                <div class="">
+                    <ul class="nav justify-content-center p-2">
+                        <li class="me-2">
+                            <div class="d-flex justify-content-center">
+                                <button id="button1" class="btn buttons-hospedaje p-2"
+                                    onclick="selectButton('button1'); showContent('content1')">Akapana</button>
+                            </div>
+                        </li>
+                        <li class="me-2">
+                            <button id="button2" class="btn buttons-hospedaje"
+                                onclick="selectButton('button2'); showContent('content2')">Mayu</button>
+                        </li>
+                        <li class="me-2">
+                            <button id="button3" class="btn buttons-hospedaje"
+                                onclick="selectButton('button3'); showContent('content3')">Amaru</button>
+                        </li>
+                        <li class="me-2">
+                            <button id="button4" class="btn buttons-hospedaje"
+                                onclick="selectButton('button4'); showContent('content4')">Michues</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div id="content1" class="card-body">
+                        <div class="row mt-4">
+                            <div class="col-md-12 col-sm-12 col-xl-4 col-lg-4 p-0 miradores-image-hospedaje">
+                                <img id="habitacion1" src="../images/La_Morra/acapana1.jpg"
+                                    class="img-fluid hospedaje" alt="">
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xl-8 col-lg-8 p-2 ps-3 my-custom-div-hospedaje"
+                                style="background-color: #F5F5F5;">
+                                <h2 class="titles text-muted mt-2">Akapana</h2>
+                                <p class="text-muted text-justify mt-2" style="text-align: justify; padding-left: 25px;
+                                padding-right: 25px;">Esta cabaña lleva el nombre de Akapana, el aliento del viento que susurra historias ancestrales y encarna la conexión profunda con la visión indígena. Construida con los materiales autóctonos de la zona, esta cabaña es un tributo a la adoración de los cuatro elementos. Desde su interior, las amplias puertas revelan una vista impresionante que se extiende hacia el horizonte. Con el viento como guía, Akapana se convierte en un refugio que fusiona la tradición, la naturaleza y una panorámica inolvidable.
+                                </p>
+
+                                <!--   <p class=" text-justify mt-4">Vive una expericencia unica en vip</p> -->
+                                <p class="titles text-muted mt-4" style="padding-left: 20px;
+                                padding-right: 20px;">¡Reserva tu aventura de lujo y prepárate para crear recuerdos inolvidables!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="content2" class="card-body" style="display: none;">
+                        <div class="row mt-4">
+                            <div class="col-md-12 col-sm-12 col-xl-4 col-lg-4 p-0 miradores-image-hospedaje">
+                                <img id="habitacion2" src="../images/La_Morra/mayu1.jpg"
+                                    class="img-fluid hospedaje" alt="">
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xl-8 col-lg-8 p-2 ps-3 my-custom-div-hospedaje"
+                                style="background-color: #F5F5F5;">
+                                <h2 class="titles text-muted mt-2">Mayu</h2>
+                                <p class="text-muted mt-2" style="text-align: justify; padding-left: 25px;
+                                padding-right: 25px;">Mayu, la cabaña tipo domo, rinde un tierno atributo al eterno amor entre Matambo y Mirtayu. Con líneas suaves y formas envolventes, este refugio se convierte en un ícono de la conexión y armonía. El amor entre dos grandes almas se refleja en cada rincón, creando una experiencia única y romántica. Esta cabaña no solo es muy cómoda, sino también un homenaje vivo al poder del amor y la belleza.
+                                </p>
+                                <!-- <p class=" mt-4">Vive una expericencia unica en el Nido colibri</p> -->
+                                <p class="titles text-muted mt-4" style="padding-left: 20px;
+                                padding-right: 20px;">¡Reserva tu aventura de lujo y prepárate para crear
+                                    recuerdos inolvidables!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="content3" class="card-body" style="display: none;">
+                        <div class="row mt-4">
+                            <div class="col-md-12 col-sm-12 col-xl-4 col-lg-4 p-0 miradores-image-hospedaje">
+                                <img id="habitacion3" src="../images/La_Morra/amaru1.jpg"
+                                    class="img-fluid hospedaje" alt="">
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xl-8 col-lg-8 p-2 ps-3 my-custom-div-hospedaje"
+                                style="background-color: #F5F5F5;">
+                                <h2 class="titles text-muted mt-2">Amaru</h2>
+                                <p class="text-muted mt-2" style="text-align: justify; padding-left: 25px;
+                                padding-right: 25px;">Inspirada en la serpiente protectora del páramo, esta cabaña lleva el nombre de Amaru, testigo eterno de la región. Construida con los mismos materiales que nuestros ancestros eligieron sabiamente, la cabaña se fusiona con la tierra que la rodea. Desde su interior acogedor, se enmarca una vista impresionante hacia el atardecer, donde el cielo se tiñe de colores cálidos y la serpiente protectora, Amaru, se convierte en la guardiana de un espectáculo celestial. Una experiencia que enlaza el respeto por la historia y la magia de la naturaleza.
+                                </p>
+                                <!-- <p class=" mt-4">Vive una expericencia unica en el Nido colibri</p> -->
+                                <p class="titles text-muted mt-4" style="padding-left: 20px;
+                                padding-right: 20px;">¡Reserva tu aventura de lujo y prepárate para crear
+                                    recuerdos inolvidables!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="content4" class="card-body" style="display: none;">
+                        <div class="row mt-4">
+                            <div class="col-md-12 col-sm-12 col-xl-4 col-lg-4 p-0 miradores-image-hospedaje">
+                                <img id="habitacion4" src="../images/La_Morra/michues1.jpg"
+                                    class="img-fluid hospedaje" alt="">
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xl-8 col-lg-8 p-2 ps-3 my-custom-div-hospedaje"
+                                style="background-color: #F5F5F5;">
+                                <h2 class="titles text-muted mt-2">Michues</h2>
+                                <p class="text-muted mt-2" style="text-align: justify; padding-left: 25px;
+                                padding-right: 25px;">Esta encantadora cabaña, bautizada con el nombre de la tribu que habitó la zona hace años, rinde homenaje a la rica historia del lugar. Construida con materiales locales, la cabaña ofrece no solo un refugio acogedor, sino también un vínculo con las raíces culturales de la región. La vista impresionante que se observa desde allí, se convierte en un recordatorio de la conexión atemporal entre el entorno natural y la tribu que le dio nombre, creando así una experiencia única y enriquecedora.
+                                </p>
+                                <!-- <p class=" mt-4">Vive una expericencia unica en el Nido colibri</p> -->
+                                <p class="titles text-muted mt-4" style="padding-left: 20px;
+                                padding-right: 20px;">¡Reserva tu aventura de lujo y prepárate para crear
+                                    recuerdos inolvidables!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <ul class="pagination justify-content-center">
-            <!--           <li class="">
-            <a class="page-link">Previous</a>
-          </li> -->
-            <li class="pages"><a class="" href="#"></a></li>
-            <li class="pages"><a class="" href="#"></a></li>
-            <li class="pages"><a class="" href="#"></a></li>
-            <li class="pages"><a class="" href="#"></a></li>
-            <li class="pages">
-                <!-- <a class="page-link" href="#">Next</a> -->
-            </li>
-        </ul>
+    </div>
+    <div class="container mt-5">
+        <hr class="mt-2">
+    </div>
+    </div>
+    <div class="row text-center mt-5">
+        <span class="titles-2" style="color: #000">ALIMENTACIÓN</span>
+    </div>
+    <div class="container mt-5">
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 col-sm-5 col-md-5 col-lg-3 col-xl-3 pt-2">
+                <div class="card box_shadow">
+                    <img src="../images/La_Morra/POSTRE.jpeg" class="card-img-top img-fluid" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title titleRestaurant text-muted">  </h6>
+                        <p class="card-text text-muted">Nuestros postres, meticulosamente elaborados, despiertan los sentidos en un viaje gustativo que va más allá de lo común. La presentación exquisita deleita la vista, invitando a sumergirse en esta delicia, un placer culinario que permanece grabado en la memoria gustativa mucho después de la última cucharada.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-5 col-md-5 col-lg-3 col-xl-3 pt-2">
+                <div class="card box_shadow">
+                    <img src="../images/La_Morra/PICADAS.jpg" class="card-img-top img-fluid" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title titleRestaurant text-muted"></h6>
+                        <p class="card-text text-muted">PIcadas, un deleite culinario donde una variedad de exquisitas carnes se entrelaza en un plato vibrante. Cada bocado es una experiencia de sabor única, fusionando las texturas jugosas y los aromas tentadores de estas carnes, creando así una picada que eleva el placer gastronómico a nuevos niveles.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-5 col-md-5 col-lg-3 col-xl-3 pt-2">
+                <div class="card box_shadow">
+                    <img src="../images/La_Morra/PLUMAS.jpeg" class="card-img-top img-fluid" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title titleRestaurant text-muted">   </h6>
+                        <p class="card-text text-muted">Las plumas del indio, son una deliciosa especialidad, que celebra la riqueza de sabores locales. Sobre una base de patacón, se encuentra una combinación irresistible de jugosa carne, o pollo. Este plato es una explosión de texturas y aromas que cautivan los sentidos, ofreciendo una experiencia gastronómica auténtica y deliciosa.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container mt-5">
+        <hr class="mt-2">
+    </div>
+
+    <div class="container mt-2">
+        <div class="footer-clean">
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-6 col-xs-12">
+                            <p class="copyright-text">Copyright &copy; 2023 Mundo De Gigantes.</p><br>
+                            <p></p>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <ul class="social-icons" style="white-space: nowrap;">
+                                <li><a class="facebook"
+                                        href="https://www.facebook.com/Lamorragigante"><i
+                                            class="fa fa-facebook icono-grande"></i></a></li>
+                                <li><a class="instagram"
+                                        href="https://www.instagram.com/lamorragigante?igsh=MWJkemt3NzM4Y3VwaQ=="><i
+                                            class="fa-brands fa-instagram fa-lg"></i></a></li>
+                                <li><i class="fa-solid fa-envelope"></i> lamorragigante@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
     </div>
 </body>
 <script>
@@ -266,6 +526,73 @@
     document.addEventListener("DOMContentLoaded", function () {
         const navbar = document.querySelector(".navbar");
         navbar.classList.add("navbar-transparent");
+
+        selectButton('button1');
     });
+
+    function showContent(contentId) {
+        // Ocultar todos los contenidos
+        document.querySelectorAll('.card-body').forEach(function (content) {
+            content.style.display = 'none';
+        });
+        // Mostrar el contenido seleccionado
+        document.getElementById(contentId).style.display = 'block';
+    }
+
+    // Función para cambiar el estado de los botones
+    function selectButton(btnId) {
+        // Eliminar la clase 'selected' de todos los botones
+        var buttons = document.getElementsByClassName('buttons-hospedaje');
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].classList.remove('selected');
+        }
+
+        // Añadir la clase 'selected' al botón clickeado
+        var selectedButton = document.getElementById(btnId);
+        selectedButton.classList.add('selected');
+    }
+
+    const habitaciones = [
+        {
+            habitacion: ["../images/La_Morra/acapana2.jpg", "../images/La_Morra/mayu2.jpg", "../images/La_Morra/amaru2.jpg", "../images/La_Morra/michues2.jpg"],
+            /*  titles: ["", "", ""], */
+        },
+        {
+            habitacion: ["../images/La_Morra/acapana3.jpg", "../images/La_Morra/mayu3.jpg", "../images/La_Morra/amaru3.jpg", "../images/La_Morra/michues3.jpg"],
+            /*  titles: ["", "", ""], */
+        },
+        {
+            habitacion: ["../images/La_Morra/acapana4.jpg", "../images/La_Morra/mayu4.jpg", "../images/La_Morra/amaru4.jpg", "../images/La_Morra/michues4.jpg"],
+            /*  titles: ["", "", ""], */
+        }
+
+    ];
+
+    var contadorIndex = 0;
+    var intervalIdHospedaje;
+
+    function startIntervalHospedaje() {
+        intervalIdHospedaje = setInterval(() => {
+            contadorIndex = (contadorIndex + 1) % habitaciones.length;
+            updateContentHospedaje();
+        }, 5000);
+    }
+
+    function resetIntervalHospedaje() {
+        clearInterval(intervalIdHospedaje);
+        startIntervalHospedaje();
+    }
+
+    function updateContentHospedaje() {
+        for (let i = 1; i <= 6; i++) { // Asegúrate de que este bucle coincida con el número de imágenes de hospedaje
+            document.getElementById(`habitacion${i}`).src = habitaciones[contadorIndex].habitacion[i - 1];
+        }
+    }
+
+    startIntervalHospedaje();
+
+
+
 </script>
+
 </html>

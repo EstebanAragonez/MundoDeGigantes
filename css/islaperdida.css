@@ -1,0 +1,467 @@
+.titles {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+.title1 {
+    font-family: 'Playfair Display', serif;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0)
+}
+
+.titles-2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 52px;
+}
+
+.titleRestaurant {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.25em;
+}
+
+.backgoundImage {
+    object-fit: cover;
+    object-position: bottom;
+    height: 80vh;
+}
+
+.btnAllProducts {
+    background-color: #D7D7D7;
+    color: #4F4F4F;
+    font-size: 14px;
+    width: 25%;
+    border: 0;
+}
+
+.imageAtracciones {
+    width: 143px;
+    height: 143px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+
+.backgoundHospedaje_1 {
+    background-image: url("../images/ManoGigante/hospedaje_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.backgoundHospedaje_2 {
+    background-image: url("../images/ManoGigante/hospedaje_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.pages {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    padding-left: 5px !important;
+}
+
+/* Aplica un margen derecho a todas las etiquetas li, excepto la última */
+ul.pagination li {
+    margin-right: 10px;
+}
+
+/* Elimina el margen derecho de la última etiqueta li para evitar espacio adicional */
+ul.pagination li:last-child {
+    margin-right: 0;
+}
+
+.container {
+    position: relative;
+}
+
+/* Estilo inicial transparente para la barra de navegación */
+.navbar {
+    z-index: 1000;
+}
+
+/* Estilo para la barra de navegación después del desplazamiento */
+.navbar-scrolled {
+    background: #479FD9 !important;
+    position: fixed;
+    width: 100%;
+    height: auto;
+}
+
+.navbar a {
+    font-family: 'Playfair Display', serif;
+    color: #ffffff !important;
+    font-size: 15px;
+    font-weight: 400;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0)
+}
+
+/* Estilo para la barra de navegación transparente después del desplazamiento */
+.navbar-transparent {
+    background: transparent !important;
+    position: fixed;
+    width: 100%;
+    height: auto;
+}
+
+.box_shadow {
+    border-radius: 6px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
+}
+
+.site-footer {
+    background-color: #26272b;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+}
+
+.site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5
+}
+
+.site-footer hr.small {
+    margin: 20px 0
+}
+
+.site-footer h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px
+}
+
+.site-footer a {
+    color: #737373;
+}
+
+.site-footer a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links {
+    padding-left: 0;
+    list-style: none
+}
+
+.footer-links li {
+    display: block
+}
+
+.footer-links a {
+    color: #737373
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links.inline li {
+    display: inline-block
+}
+
+.site-footer .social-icons {
+    text-align: right
+}
+
+.site-footer .social-icons a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 6px;
+    margin-right: 0;
+    border-radius: 100%;
+    background-color: #33353d
+}
+
+.copyright-text {
+    margin: 0
+}
+
+@media (max-width:991px) {
+    .site-footer [class^=col-] {
+        margin-bottom: 30px
+    }
+}
+
+@media (max-width:767px) {
+    .site-footer {
+        padding-bottom: 0
+    }
+
+    .site-footer .copyright-text,
+    .site-footer .social-icons {
+        text-align: center
+    }
+}
+
+@media (max-width: 400px) {
+    .titles-2 {
+        font-family: 'Playfair Display', serif;
+        font-size: 40px;
+    }
+
+    .titleRestaurant {
+        font-family: 'Playfair Display', serif;
+        letter-spacing: 0.25em;
+        font-size: 8px;
+    }
+
+    .btnAllProducts {
+        background-color: #D7D7D7;
+        color: #4F4F4F;
+        font-size: 8px;
+        width: 40%;
+        border: 0;
+    }
+}
+
+.social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-bottom: 4px
+}
+
+.social-icons li.title {
+    margin-right: 15px;
+    text-transform: uppercase;
+    color: #96a2b2;
+    font-weight: 700;
+    font-size: 13px
+}
+
+.social-icons a {
+    background-color: #eceeef;
+    color: #818a91;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear
+}
+
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+    color: #fff;
+    background-color: #29aafe
+}
+
+.social-icons.size-sm a {
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    font-size: 14px
+}
+
+.social-icons a.facebook:hover {
+    color: #fff;
+    background-color: rgb(30, 149, 185);
+
+}
+
+.social-icons a.facebook {
+    color: #fff;
+    background-color: #3b5998
+}
+
+.social-icons a.instagram:hover {
+    background-color: #7f1840
+}
+
+.social-icons a.instagram {
+    color: #fff;
+    background-color: #ea4c89
+}
+
+@media (max-width:767px) {
+    .social-icons li.title {
+        display: block;
+        margin-right: 0;
+        font-weight: 600
+    }
+}
+
+.my-custom-div {
+    background-color: #F5F5F5;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
+    /* Sombra solo en el lado derecho y superior/inferior */
+}
+
+.miradores-image {
+    width: auto;
+    height: 450px;
+    border-radius: 6px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.miradores-image-hospedaje {
+    width: 330px; /* Igual que el ancho de .hospedaje */
+    height: 380px; /* Igual que el alto de .hospedaje */
+    padding: 0; /* Asegurarse de que no hay relleno */
+}
+
+.spot {
+    width: 380px;
+    height: 460px;
+    border-radius: 6px;
+    box-shadow: -6px 6px 10px rgba(0, 0, 0, 0.5);
+    /* Sombra solo en el lado izquierdo y superior/inferior */
+}
+
+.hospedaje {
+    width: 330px;
+    height: 380px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    box-shadow: -6px 6px 10px rgba(0, 0, 0, 0.5);
+    /* Sombra solo en el lado izquierdo y superior/inferior */
+}
+
+.button-container button:hover {
+    background-color: #515151;
+    /* Color de fondo al pasar el mouse (opcional) */
+}
+
+.positioned-button {
+    position: absolute;
+    /* Posicionamiento absoluto */
+    top: 50%;
+    /* Centrado verticalmente */
+    transform: translateY(-50%);
+    /* Ajusta la posición para centrar exactamente */
+    z-index: 10;
+    /* Asegura que el botón esté sobre otros elementos */
+}
+
+/* Asegúrate de que el contenedor principal tiene posición relativa */
+.row-images {
+    position: relative;
+}
+
+/* Ajuste específico para el botón Anterior */
+#prevButton {
+    position: absolute;
+    left: -52px;
+    /* Ajusta según el ancho del botón para que quede a la mitad fuera de la imagen */
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 15;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #c8c8c8;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+
+}
+
+#prevButton:hover {
+    background-color: #676262;
+    /* El color que quieras al pasar el mouse */
+}
+
+#nextButton {
+    position: absolute;
+    right: -50px;
+    /* Ajusta según el ancho del botón para que quede a la mitad fuera de la imagen */
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #c8c8c8;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#nextButton:hover {
+    background-color: #676262;
+    /* El color que quieras al pasar el mouse */
+}
+
+.containerIntro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    height: 100vh;
+    /* Puede ser necesario para algunos navegadores para centrar verticalmente */
+}
+
+.p {
+    text-align: justify;
+}
+
+.selected {
+    background-color: #ffffff !important;
+    /* Elige el color que prefieras para el botón seleccionado */
+    color: rgb(0, 0, 0) !important;
+    /* Cambia el color del texto si es necesario */
+    border-color: #26272b;
+}
+
+.buttons-hospedaje {
+    background-color: #479FD9;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    margin-right: 10px;
+    margin-bottom: 3px;
+}
+
+.buttons-hospedaje:hover {
+    background-color: #33749f;
+    color: white;
+}
+
+#button1{
+    box-shadow: -6px 6px 10px rgba(0, 0, 0, 0.5);
+}
+#button2{
+    box-shadow: -6px 6px 10px rgba(0, 0, 0, 0.5);
+}
+#button3{
+    box-shadow: -6px 6px 10px rgba(0, 0, 0, 0.5);
+}
+#button4{
+    box-shadow: -6px 6px 10px rgba(0, 0, 0, 0.5);
+}
+#button5{
+    box-shadow: -6px 6px 10px rgba(0, 0, 0, 0.5);
+}
+#button6{
+    box-shadow: -6px 6px 10px rgba(0, 0, 0, 0.5);
+}

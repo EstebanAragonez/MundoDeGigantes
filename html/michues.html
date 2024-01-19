@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../librerias/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/manoGigante.css">
+    <script src="https://kit.fontawesome.com/3b4cea9a6c.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <script src="/librerias/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <title>Michues</title>
+</head>
+
+<body style="overflow-x: hidden">
+    <style>
+        .float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 60px;
+            right: 40px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+        }
+
+        .float:hover {
+            text-decoration: none;
+            color: #25d366;
+            background-color: #fff;
+        }
+
+        .my-float {
+            margin-top: 16px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=573133178532&text=Hola%21%20Quisiera%20asesoria." class="float"
+        target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
+    <nav class="navbar navbar-expand-lg py-0">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img class="mx-3" src="/images/michues/logo.jpg" alt="" width="50px" height="50px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav w-100 d-flex justify-content-between">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">DONDE QUEDARSE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">RESTAURANTES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">EVENTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PLANES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">MAPAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HISTORIAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="/images/michues/portada.jpg" class="d-block w-100 backgoundImage" alt="...">
+                <div class="carousel-caption" style="position: absolute; top: 45%">
+                    <div class="text-center">
+                        <span class="title1" style="font-size: 60px; color: #ffffff; font-weight: 400;">Michues</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="/images/michues/portada.jpg" class="d-block w-100 backgoundImage" alt="...">
+                <div class="carousel-caption" style="position: absolute; top: 45%">
+                    <div class="text-center">
+                        <span class="title1" style="font-size: 60px; color: #ffffff; font-weight: 400;">Michues</span>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000 ">
+                <img src="/images/michues/portada.jpg" class="d-block w-100 backgoundImage" alt="...">
+                <div class="carousel-caption" style="position: absolute; top: 45%">
+                    <div class="text-center">
+                        <span class="title1" style="font-size: 60px; color: #ffffff; font-weight: 400;">Michues</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" style="width: 100px; height: 100px" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" style="width: 100px; height: 100px" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    </div>
+    <!-- <div class="text-center d-flex align-items-center justify-content-center backgoundImage">
+        <div class="text-center">
+            <span class="title1" style="font-size: 60px; color: #ffffff; font-weight: 400">Mano del Gigante</span>
+
+        </div>
+    </div> -->
+    <br>
+    <div class="row d-flex justify-content-center ">
+        <div class="text-center d-none d-md-none d-lg-none d-xl-block box_shadow" style="
+          background-color: #f5f5f5;
+          width: 50%;
+        
+        ">
+            <div class="row">
+                <div class="p-4">
+                    <div>
+                        <span class="" style="font-size: 15px; color: #000; margin-top: 40%">La Mano del Gigante es una
+                            galería de arte gigante, donde a través del paisaje se exhiben obras multicolor que llenan
+                            la montaña de alegría. Un espacio donde se destaca la cultura y la tradición huilense dentro
+                            de su música y gastronomía. Un lugar de arte al natural.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    <br><br><br>
+    <div class="container">
+        <hr class="mt-2">
+    </div>
+    <div class="row text-center mt-5">
+        <span class="titles text-muted" style="font-size: 32px">SPOTS FOTOGRAFICOS</span>
+    </div>
+    <div class="container mt-4">
+        <div class="row">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-wrap="true">
+                <div class="carousel-inner">
+                    <div class="carousel-item active " data-bs-interval="3000">
+                        <div class="row mt-2 mb-3 ms-3">
+                            <div class="col">
+                                <img src="../images/michues/spot1.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/michues/spot11.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/michues/spot5.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="row mt-2 mb-3 ms-3">
+                            <div class="col">
+                                <img src="../images/michues/spot10.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/michues/spot8.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/michues/spot2.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="row mt-2 mb-3 ms-3">
+                            <div class="col">
+                                <img src="../images/michues/ali1.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/michues/spot9.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/michues/spot6.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="row mt-2 mb-3 ms-3">
+                            <div class="col">
+                                <img src="../images/michues/spot7.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/michues/spot4.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/michues/ali2.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="row mt-2 mb-3 ms-3">
+                            <div class="col">
+                                <img src="../images/michues/spot12.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/michues/spot3.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/michues/ali12.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="row mt-2 mb-3 ms-3">
+                            <div class="col">
+                                <img src="../images/michues/ali8.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/michues/spot4.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/michues/spot11.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" style="width: 100px; height: 100px"
+                        aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" style="width: 100px; height: 100px"
+                        aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+            </div>
+        </div>
+    </div>
+    <!-- <div class="row d-flex justify-content-center mt-5 ">
+        <button class="btnAllProducts p-2">MAS SERVICIOS</button>
+    </div> -->
+    <br><br><br>
+    <div class="container">
+        <hr class="mt-2">
+    </div>
+    
+    <div class="container mt-5">
+        <hr class="mt-2">
+    </div>
+    </div>
+    <div class="row text-center mt-5">
+        <span class="titles-2" style="color: #000">ALIMENTACIÓN</span>
+    </div>
+    <div class="container mt-5">
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 col-sm-5 col-md-5 col-lg-3 col-xl-3 pt-2">
+                <div class="card box_shadow">
+                    <img src="../images/michues/ali6.jpg" class="card-img-top img-fluid" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title titleRestaurant text-muted">  </h6>
+                        <p class="card-text text-muted">Un desayuno tipico y delicioso en las montañas de colombia.
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-5 col-md-5 col-lg-3 col-xl-3 pt-2">
+                <div class="card box_shadow">
+                    <img src="../images/michues/ali7.jpg" class="card-img-top img-fluid" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title titleRestaurant text-muted">  </h6>
+                        <p class="card-text text-muted">La alquimia del amor en una sola mesa ♡.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-5 col-md-5 col-lg-3 col-xl-3 pt-2">
+                <div class="card box_shadow">
+                    <img src="../images/michues/ali3.jpg" class="card-img-top img-fluid" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title titleRestaurant text-muted"></h6>
+                        <p class="card-text text-muted">Disfruta de la  gastronomía gigante.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-5 col-md-5 col-lg-3 col-xl-3 pt-2">
+                <div class="card box_shadow">
+                    <img src="../images/michues/ali4.jpg" class="card-img-top img-fluid" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title titleRestaurant text-muted">   </h6>
+                        <p class="card-text text-muted">Encuentra nuestro plato más típico delicia gastronómica 
+                            "El asado Huilense".</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container mt-5">
+        <hr class="mt-2">
+    </div>
+
+    <div class="container mt-2">
+        <div class="footer-clean">
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-6 col-xs-12">
+                            <p class="copyright-text">Copyright &copy; 2023 Mundo De Gigantes.</p><br>
+                            <p></p>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <ul class="social-icons" style="white-space: nowrap;">
+                                <li><a class="facebook"
+                                        href="https://web.facebook.com/profile.php?id=100063679368501"><i
+                                            class="fa fa-facebook icono-grande"></i></a></li>
+                                <li><a class="instagram"
+                                        href="https://instagram.com/mundodegigantes?igshid=OGQ5ZDc2ODk2ZA=="><i
+                                            class="fa-brands fa-instagram fa-lg"></i></a></li>
+                                <li><i class="fa-solid fa-envelope"></i> lamanodelgigantehuila@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    </div>
+</body>
+<script>
+    window.addEventListener("scroll", function () {
+        const navbar = document.querySelector(".navbar");
+        if (window.scrollY > 10) {
+            navbar.classList.add("navbar-scrolled");
+            navbar.classList.remove("navbar-transparent");
+        } else {
+            navbar.classList.remove("navbar-scrolled");
+            navbar.classList.add("navbar-transparent");
+
+        }
+    });
+
+    // Inicialmente, establece la barra de navegación como transparente
+    document.addEventListener("DOMContentLoaded", function () {
+        const navbar = document.querySelector(".navbar");
+        navbar.classList.add("navbar-transparent");
+
+        selectButton('button1');
+    });
+
+    function showContent(contentId) {
+        // Ocultar todos los contenidos
+        document.querySelectorAll('.card-body').forEach(function (content) {
+            content.style.display = 'none';
+        });
+        // Mostrar el contenido seleccionado
+        document.getElementById(contentId).style.display = 'block';
+    }
+
+    // Función para cambiar el estado de los botones
+    function selectButton(btnId) {
+        // Eliminar la clase 'selected' de todos los botones
+        var buttons = document.getElementsByClassName('buttons-hospedaje');
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].classList.remove('selected');
+        }
+
+        // Añadir la clase 'selected' al botón clickeado
+        var selectedButton = document.getElementById(btnId);
+        selectedButton.classList.add('selected');
+    }
+
+    const habitaciones = [
+        {
+            habitacion: ["../images/ManoGigante/hospedaje/nidoTurpial2.jpeg", "../images/ManoGigante/hospedaje/nidoColibri2.jpg", "../images/ManoGigante/hospedaje/nidoCardenal2.jpeg", "../images/ManoGigante/hospedaje/hoste2.jpeg", "../images/ManoGigante/hospedaje/azulejo2.jpg", "../images/ManoGigante/hospedaje/nomadaGlamping2.jpeg"],
+            /*  titles: ["", "", ""], */
+        },
+        {
+            habitacion: ["../images/ManoGigante/hospedaje/nidoTurpial3.jpeg", "../images/ManoGigante/hospedaje/nidoColibri3.jpg", "../images/ManoGigante/hospedaje/nidoCardenal3.jpeg", "../images/ManoGigante/hospedaje/hoste3.jpeg", "../images/ManoGigante/hospedaje/azulejo3.jpeg", "../images/ManoGigante/hospedaje/nomadaGlamping8.jpg"],
+            /*  titles: ["", "", ""], */
+        },
+        {
+            habitacion: ["../images/ManoGigante/hospedaje/nidoTurpial4.jpeg", "../images/ManoGigante/hospedaje/nidoColibri4.jpg", "../images/ManoGigante/hospedaje/nidoCardenal4.jpeg", "../images/ManoGigante/hospedaje/hoste4.jpeg", "../images/ManoGigante/hospedaje/azulejo4.jpeg", "../images/ManoGigante/hospedaje/nomadaGlamping4.jpeg"],
+            /*  titles: ["", "", ""], */
+        },
+        {
+            habitacion: ["../images/ManoGigante/hospedaje/nidoTurpial5.jpeg", "../images/ManoGigante/hospedaje/nidoColibri5.jpeg", "../images/ManoGigante/hospedaje/nidoCardenal15.jpeg", "../images/ManoGigante/hospedaje/hoste5.jpeg", "../images/ManoGigante/hospedaje/azulejo5.jpeg", "../images/ManoGigante/hospedaje/nomadaGlamping3.jpeg"],
+            /*  titles: ["", "", ""], */
+        },
+        {
+            habitacion: ["../images/ManoGigante/hospedaje/nidoTurpial6.jpeg", "../images/ManoGigante/hospedaje/nidoColibri6.jpeg", "../images/ManoGigante/hospedaje/nidoCardenal6.jpeg", "../images/ManoGigante/hospedaje/hoste6.jpeg", "../images/ManoGigante/hospedaje/azulejo6.jpeg", "../images/ManoGigante/hospedaje/nomadaGlamping6.jpeg"],
+            /*  titles: ["", "", ""], */
+        },
+        {
+            habitacion: ["../images/ManoGigante/hospedaje/nidoTurpial7.jpeg", "../images/ManoGigante/hospedaje/nidoColibri7.jpeg", "../images/ManoGigante/hospedaje/nidoCardenal7.jpeg", "../images/ManoGigante/hospedaje/hoste7.jpeg", "../images/ManoGigante/spot6.jpg", "../images/ManoGigante/hospedaje/nomadaGlamping7.jpeg"],
+            /*  titles: ["", "", ""], */
+        },
+        {
+            habitacion: ["../images/ManoGigante/hospedaje/nidoTurpial1.jpeg", "../images/ManoGigante/hospedaje/nidoColibri1.jpg", "../images/ManoGigante/hospedaje/nidoCardenal1.jpeg", "../images/ManoGigante/hospedaje/hoste1.jpeg", "../images/ManoGigante/hospedaje/azulejo1.jpg", "../images/ManoGigante/hospedaje/nomadaGlamping5.jpeg"],
+            /*  titles: ["", "", ""], */
+        }
+
+    ];
+
+    var contadorIndex = 0;
+    var intervalIdHospedaje;
+
+    function startIntervalHospedaje() {
+        intervalIdHospedaje = setInterval(() => {
+            contadorIndex = (contadorIndex + 1) % habitaciones.length;
+            updateContentHospedaje();
+        }, 5000);
+    }
+
+    function resetIntervalHospedaje() {
+        clearInterval(intervalIdHospedaje);
+        startIntervalHospedaje();
+    }
+
+    function updateContentHospedaje() {
+        for (let i = 1; i <= 6; i++) { // Asegúrate de que este bucle coincida con el número de imágenes de hospedaje
+            document.getElementById(`habitacion${i}`).src = habitaciones[contadorIndex].habitacion[i - 1];
+        }
+    }
+
+    startIntervalHospedaje();
+
+
+
+</script>
+
+</html>

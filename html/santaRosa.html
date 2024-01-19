@@ -5,16 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../librerias/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/santaRosa.css">
+    <link rel="stylesheet" href="../css/manoGigante.css">
+    <script src="https://kit.fontawesome.com/3b4cea9a6c.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <script src="/librerias/bootstrap/js/bootstrap.bundle.min.js"></script>
     <title>Santa Rosa</title>
 </head>
 
 <body style="overflow-x: hidden">
-    <nav class="navbar navbar-expand-lg">
+    <style>
+        .float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 60px;
+            right: 40px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+        }
+
+        .float:hover {
+            text-decoration: none;
+            color: #25d366;
+            background-color: #fff;
+        }
+
+        .my-float {
+            margin-top: 16px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=573508482512&text=Hola%21%20Quisiera%20asesoria." class="float"
+        target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
+    <nav class="navbar navbar-expand-lg py-0">
         <div class="container">
-            <!-- <a class="navbar-brand" href="#">Mi Sitio Web</a> -->
+            <a class="navbar-brand" href="#">
+                <img class="mx-3" src="/images/Santa_Rosa/LOGO SANTA ROSA.png" alt="" width="50px" height="50px">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -46,209 +81,540 @@
             </div>
         </div>
     </nav>
-    <div class="d-flex align-items-center justify-content-center backgoundImage" style="height: 50vh">
-        <span class="titles" style="font-size: 52px; color: #000">Santa Rosa</span>
-    </div>
-    <div class="row d-flex justify-content-center">
-        <div class="mt-5 text-center " style="width: 34%">
-            <p class="text-muted">La finca SANTA ROSA es el  hogar nuestro destinado a recibir turistas, un paraíso que quisimos compartir para que quienes quieran disfrutar de la naturaleza viviendo experiencias en la granja junto a sus familias lo puedan hacer.
-                Hace más de 20 años estamos construyendo nuestro proyecto familiar, poco a poco estamos creciendo, dando lo mejor para que cada persona que nos visite se sienta en su hogar.
-                Los espacios, la tranquilidad, la buena comida, excelente atención, los jardines, los animales y mucho más hace que su visita sea la mejor experiencia.
-                </p>
+    <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
         </div>
-    </div>
-    <div class="row text-center mt-5">
-        <span class="titles" style="font-size: 52px; color: #000">Restaurante</span>
-    </div>
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-lg-3 col-xl-3 d-flex justify-content-center">
-                <div class="row">
-                    <img src="../images/futurama.jpg" class="img-fluid" alt="">
-                    <h6 class="titleRestaurant text-muted mt-2">This is product’s name</h6>
-                    <p class="text-muted mt-2">Crafted by - Arun Magar</p>
-                    <p class="text-muted mt-2">$560</p>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="/images/Santa_Rosa/portada.jpg" class="d-block w-100 backgoundImage" alt="...">
+                <div class="carousel-caption" style="position: absolute; top: 45%">
+                    <div class="text-center">
+                        <span class="title1" style="font-size: 60px; color: #ffffff; font-weight: 400;">Santa Rosa</span>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-12 col-sm-12 col-lg-3 col-xl-3">
-                <img src="../images/futurama.jpg" class="img-fluid" alt="">
-                <h6 class="titleRestaurant text-muted mt-2">This is product’s name</h6>
-                <p class="text-muted mt-2">Crafted by - Arun Magar</p>
-                <p class="text-muted mt-2">$560</p>
+
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="/images/Santa_Rosa/portada_3.jpg" class="d-block w-100 backgoundImage" alt="...">
+                <div class="carousel-caption" style="position: absolute; top: 45%">
+                    <div class="text-center">
+                        <span class="title1" style="font-size: 60px; color: #ffffff; font-weight: 400;">Santa Rosa</span>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-12 col-sm-12 col-lg-3 col-xl-3">
-                <img src="../images/futurama.jpg" class="img-fluid" alt="">
-                <h6 class="titleRestaurant text-muted mt-2">This is product’s name</h6>
-                <p class="text-muted mt-2">Crafted by - Arun Magar</p>
-                <p class="text-muted mt-2">$560</p>
+            <div class="carousel-item" data-bs-interval="3000 ">
+                <img src="/images/Santa_Rosa/portada_4.jpg" class="d-block w-100 backgoundImage" alt="...">
+                <div class="carousel-caption" style="position: absolute; top: 45%">
+                    <div class="text-center">
+                        <span class="title1" style="font-size: 60px; color: #ffffff; font-weight: 400;">Santa Rosa</span>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-12 col-sm-12 col-lg-3 col-xl-3">
-                <img src="../images/futurama.jpg" class="img-fluid" alt="">
-                <h6 class="titleRestaurant text-muted mt-2">This is product’s name</h6>
-                <p class="text-muted mt-2">Crafted by - Arun Magar</p>
-                <p class="text-muted mt-2">$560</p>
-            </div>
-            <div class="row d-flex justify-content-center mt-5 ">
-                <button class="titleRestaurant btnAllProducts p-2">VIEW ALL PRODUCTS</button>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" style="width: 100px; height: 100px" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" style="width: 100px; height: 100px" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    </div>
+    <!-- <div class="text-center d-flex align-items-center justify-content-center backgoundImage">
+        <div class="text-center">
+            <span class="title1" style="font-size: 60px; color: #ffffff; font-weight: 400">Mano del Gigante</span>
+
+        </div>
+    </div> -->
+    <br>
+    <div class="row d-flex justify-content-center ">
+        <div class="text-center d-none d-md-none d-lg-none d-xl-block box_shadow" style="
+          background-color: #f5f5f5;
+          width: 50%;
+        
+        ">
+            <div class="row">
+                <div class="p-4">
+                    <div>
+                        <span class="" style="font-size: 15px; color: #000; margin-top: 40%">La Mano del Gigante es una
+                            galería de arte gigante, donde a través del paisaje se exhiben obras multicolor que llenan
+                            la montaña de alegría. Un espacio donde se destaca la cultura y la tradición huilense dentro
+                            de su música y gastronomía. Un lugar de arte al natural.
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <div class="row text-center mt-5">
-        <span class="titles" style="font-size: 52px; color: #000">ATRACCIONES</span>
+        <span class="titles-2" style="color: #000">ACTIVIDADES</span>
     </div>
-    <div class="container mt-5">
-        <div class="row">
+    <div class="container mt-3">
+        <div class="row d-flex justify-content-center">
             <div class="row">
-                <div class="col-md-12 col-sm-12 col-xl-4 col-lg-4 p-0">
-                    <img src="../images/Santa_Rosa/IMG_1439.jpg" class="img-fluid h-100" alt="">
+                <div class="col-md-12 col-sm-12 col-xl-4 col-lg-4 p-0 miradores-image-container">
+                    <img src="../images/Santa_Rosa/acti_cuatri.jpg" class="img-fluid miradores-image h-100" alt="">
+                </div>
+                <div class="col-md-12 col-sm-12 col-xl-8 col-lg-8 p-2 ps-3 my-custom-div">
+                    <h5 class="text-muted mt-2">CUATRIMOTOS</h5><br><br>
+                    <h5 <p class="text-muted mt-2">La mano del gigante un lindo monumento en el que podrás hacer tu foto icónica disfrutando  de un maravilloso paisaje de fondo lleno de color, esplendor y tener la mejor experiencia.<br>La marca de la mano es un referente a nivel nacional que reune en un mismo escenario de cultura, paz, altruismo y mucha inclusión.</p></h5>
+                    <p class=" mt-4"></p>
+                    <p class="titles text-muted mt-4"></p>
+                    <br><br><br>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
+                            <img src="../images/Santa_Rosa/acti_cuatri4.jpg"
+                                class="img-fluid rounded-circle imageAtracciones" alt="">
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
+                            <img src="../images/Santa_Rosa/acti_cuatri5.jpg"
+                                class="img-fluid rounded-circle imageAtracciones" alt="">
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
+                            <img src="../images/Santa_Rosa/acti_cuatri6.jpg"
+                                class="img-fluid rounded-circle imageAtracciones" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-12 col-sm-12 col-xl-4 col-lg-4 p-0 miradores-image-container">
+                    <img src="../images/Santa_Rosa/acti_piscina1.jpg" class="img-fluid miradores-image h-100"
+                        alt="">
+                </div>
+                <div class="col-md-12 col-sm-12 col-xl-8 col-lg-8 p-2 ps-3 my-custom-div"
+                    style="background-color: #F5F5F5;">
+                    <h5 class="text-muted mt-2">PISCINA</h5><br><br>
+                    <h5 <p class="text-muted mt-2">Un rodadero que cuenta con 210 metros de una magnifica diversion donde podrás sonreir y disfrutar del paisaje hasta caer a una psicina de pelotas.</p> </h5>
+                    <p class=" mt-4"></p>
+                    <p class="titles text-muted mt-4"></p>
+                    <br><br><br>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
+                            <img src="../images/Santa_Rosa/acti_piscina.jpg"
+                                class="img-fluid rounded-circle imageAtracciones" alt="">
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
+                            <img src="../images/Santa_Rosa/acti_piscina2.jpg"
+                                class="img-fluid rounded-circle imageAtracciones" alt="">
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
+                            <img src="../images/Santa_Rosa/acti_piscina3.jpg"
+                                class="img-fluid rounded-circle imageAtracciones" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-12 col-sm-12 col-xl-4 col-lg-4 p-0 miradores-image-container">
+                    <img src="../images/Santa_Rosa/acti_botes2.jpg" class="img-fluid miradores-image h-100" alt="">
+                </div>
+                <div class="col-md-12 col-sm-12 col-xl-8 col-lg-8 p-2 ps-3 my-custom-div"
+                    style="background-color: #F5F5F5;">
+                    <h5 class="text-muted mt-2">BOTES ACUATICOS </h5><br><br>
+                    <h5 <p class="text-muted mt-2">Una aventura perfecta para ver el mundo desde arriba. ¡Vuela con huilandia y siente la adrenalina.!</p></h5>
+                    <p class=" mt-4"></p>
+                    <p class="titles text-muted mt-4"></p>
+                    <br><br><br>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
+                            <img src="../images/Santa_Rosa/acti_botes.jpg"
+                                class="img-fluid rounded-circle imageAtracciones" alt="">
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
+                            <img src="../images/Santa_Rosa/acti_botes3.jpg"
+                                class="img-fluid rounded-circle imageAtracciones" alt="">
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
+                            <img src="../images/Santa_Rosa/acti_botes5.jpg"
+                                class="img-fluid rounded-circle imageAtracciones" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-12 col-sm-12 col-xl-4 col-lg-4 p-0 miradores-image-container">
+                    <img src="../images/Santa_Rosa/acti_granja8.jpg" class="img-fluid miradores-image h-100" alt="">
+                </div>
+                <div class="col-md-12 col-sm-12 col-xl-8 col-lg-8 p-2 ps-3 my-custom-div"
+                    style="background-color: #F5F5F5;">
+                    <h5 class="text-muted mt-2">GRANJA INTERACTIVA</h5><br><br>
+                    <h5 <p class="text-muted mt-2">La música y la danza se unen para una celebración vibrante de tradiciones culturales.¡Ven y vive una experiencia única de bailar el majestuoso san juanero Huilense!.</p></h5>
+                    <p class=" mt-4"></p>
+                    <p class="titles text-muted mt-4"></p>
+                    <br><br><br>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
+                            <img src="../images/Santa_Rosa/acti_granja5.jpg"
+                                class="img-fluid rounded-circle imageAtracciones" alt="">
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
+                            <img src="../images/Santa_Rosa/acti_granja6.jpg"
+                                class="img-fluid rounded-circle imageAtracciones" alt="">
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
+                            <img src="../images/Santa_Rosa/acti_granja7.jpg"
+                                class="img-fluid rounded-circle imageAtracciones" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="container">
+        <hr class="mt-2">
+    </div>
+    <div class="row text-center mt-5">
+        <span class="titles text-muted" style="font-size: 32px">SPOTS FOTOGRAFICOS</span>
+    </div>
+    <div class="container mt-4">
+        <div class="row">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-wrap="true">
+                <div class="carousel-inner">
+                    <div class="carousel-item active " data-bs-interval="3000">
+                        <div class="row mt-2 mb-3 ms-3">
+                            <div class="col">
+                                <img src="../images/Santa_Rosa/spot_corazon.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/Santa_Rosa/spot_jeep2.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/Santa_Rosa/spot_mariposa.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="row mt-2 mb-3 ms-3">
+                            <div class="col">
+                                <img src="../images/Santa_Rosa/spot_corazon5.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/Santa_Rosa/spot2.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/Santa_Rosa/IMG_6807.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="row mt-2 mb-3 ms-3">
+                            <div class="col">
+                                <img src="../images/Santa_Rosa/spot_jeep3.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/Santa_Rosa/IMG_1434.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/Santa_Rosa/spot_mariposa2.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="row mt-2 mb-3 ms-3">
+                            <div class="col">
+                                <img src="../images/Santa_Rosa/IMG_1398.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/Santa_Rosa/spot1.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/Santa_Rosa/IMG_6833.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="row mt-2 mb-3 ms-3">
+                            <div class="col">
+                                <img src="../images/Santa_Rosa/spot_jeep4.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/Santa_Rosa/IMG_1541.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/Santa_Rosa/IMG_8767.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="row mt-2 mb-3 ms-3">
+                            <div class="col">
+                                <img src="../images/Santa_Rosa/IMG_6795.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/Santa_Rosa/IMG_6863.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                            <div class="col">
+                                <img src="../images/Santa_Rosa/IMG_8751.jpg" class="img-fluid spot" alt="...">
+                            </div>
+                        </div>
+                    </div>
+
 
                 </div>
-                <div class="col-md-12 col-sm-12 col-xl-8 col-lg-8 p-2 ps-3" style="background-color: #F5F5F5;">
-                    <h5 class="titles text-muted mt-2">SENDERISMO</h5>
-                    <p class="text-muted mt-2">This is a title to explain the product produced or created by the person
-                        on the left. Gummies tart brownie sugar plum dragée chocolate bar sweet dessert...</p>
-                    <p class=" mt-4">READ MORE</p>
-                    <p class="titles text-muted mt-4">POPULAR PRODUCTS</p>
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
-                            <img src="../images/futurama.jpg" class="img-fluid rounded-circle imageAtracciones" alt="">
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
-                            <img src="../images/futurama.jpg" class="img-fluid rounded-circle imageAtracciones" alt="">
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
-                            <img src="../images/futurama.jpg" class="img-fluid rounded-circle imageAtracciones" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-4">
-                <div class="col-md-12 col-sm-12 col-xl-4 col-lg-4 p-0">
-                    <img src="../images/Santa_Rosa/IMG_1483.jpg" class="img-fluid h-100" alt="">
-                </div>
-                <div class="col-md-12 col-sm-12 col-xl-8 col-lg-8 p-2 ps-3" style="background-color: #F5F5F5;">
-                    <h5 class="titles text-muted mt-2">SENDERISMO</h5>
-                    <p class="text-muted mt-2">This is a title to explain the product produced or created by the person
-                        on the left. Gummies tart brownie sugar plum dragée chocolate bar sweet dessert...</p>
-                    <p class=" mt-4">READ MORE</p>
-                    <p class="titles text-muted mt-4">POPULAR PRODUCTS</p>
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
-                            <img src="../images/futurama.jpg" class="img-fluid rounded-circle imageAtracciones" alt="">
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
-                            <img src="../images/futurama.jpg" class="img-fluid rounded-circle imageAtracciones" alt="">
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
-                            <img src="../images/futurama.jpg" class="img-fluid rounded-circle imageAtracciones" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-4">
-                <div class="col-md-12 col-sm-12 col-xl-4 col-lg-4 p-0">
-                    <img src="../images/Santa_Rosa/IMG_6832.jpg" class="img-fluid h-100" alt="">
-                </div>
-                <div class="col-md-12 col-sm-12 col-xl-8 col-lg-8 p-2 ps-3" style="background-color: #F5F5F5;">
-                    <h5 class="titles text-muted mt-2">SENDERISMO</h5>
-                    <p class="text-muted mt-2">This is a title to explain the product produced or created by the person
-                        on the left. Gummies tart brownie sugar plum dragée chocolate bar sweet dessert...</p>
-                    <p class=" mt-4">READ MORE</p>
-                    <p class="titles text-muted mt-4">POPULAR PRODUCTS</p>
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
-                            <img src="../images/futurama.jpg" class="img-fluid rounded-circle imageAtracciones" alt="">
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
-                            <img src="../images/futurama.jpg" class="img-fluid rounded-circle imageAtracciones" alt="">
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
-                            <img src="../images/futurama.jpg" class="img-fluid rounded-circle imageAtracciones" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-4">
-                <div class="col-md-12 col-sm-12 col-xl-4 col-lg-4 p-0">
-                    <img src="../images/Santa_Rosa/IMG_6881.jpg" class="img-fluid h-100" alt="">
-                </div>
-                <div class="col-md-12 col-sm-12 col-xl-8 col-lg-8 p-2 ps-3" style="background-color: #F5F5F5;">
-                    <h5 class="titles text-muted mt-2">SENDERISMO</h5>
-                    <p class="text-muted mt-2">This is a title to explain the product produced or created by the person
-                        on the left. Gummies tart brownie sugar plum dragée chocolate bar sweet dessert...</p>
-                    <p class=" mt-4">READ MORE</p>
-                    <p class="titles text-muted mt-4">POPULAR PRODUCTS</p>
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
-                            <img src="../images/futurama.jpg" class="img-fluid rounded-circle imageAtracciones" alt="">
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
-                            <img src="../images/futurama.jpg" class="img-fluid rounded-circle imageAtracciones" alt="">
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-lg-4 col-xl-4 d-flex justify-content-center">
-                            <img src="../images/futurama.jpg" class="img-fluid rounded-circle imageAtracciones" alt="">
-                        </div>
-                    </div>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" style="width: 100px; height: 100px"
+                        aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" style="width: 100px; height: 100px"
+                        aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
             </div>
         </div>
-        <div class="row d-flex justify-content-center mt-5 ">
-            <button class="titleRestaurant btnAllProducts p-2">VIEW ALL PRODUCTS</button>
-        </div>
-        <hr class="mt-5">
-        <div class="row text-center mt-5">
-            <span class="titles" style="font-size: 52px; color: #000">HOSPEDAJE</span>
-        </div>
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-md-12 col-sm-12 col-xl-6 col-lg-6">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12 col-xl-2 col-lg-2">
-                            <div style="border-radius: 50%;width: 100px;height: 100px; background-color: grey"></div>
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-xl-10 col-lg-10">
-                            <span class="titles text-muted" style="font-size: 20px;">" MIRADOR DON ARNULFO</span>
-                        </div>
-                        <div class="row" style="height: 465px">
-                            <div class="col-md-12 col-sm-12 col-xl-12 col-lg-12 backgoundHospedaje">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12 col-sm-12 col-xl-6 col-lg-6">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12 col-xl-2 col-lg-2">
-                            <div style="border-radius: 50%;width: 100px;height: 100px; background-color: grey"></div>
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-xl-10 col-lg-10">
-                            <span class="titles text-muted" style="font-size: 20px;">" MIRADOR DON ARNULFO</span>
-                        </div>
-                        <div class="row" style="height: 465px">
-                            <div class="col-md-12 col-sm-12 col-xl-12 col-lg-12 backgoundHospedaje">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr class="mt-5">
     </div>
+    <!-- <div class="row d-flex justify-content-center mt-5 ">
+        <button class="btnAllProducts p-2">MAS SERVICIOS</button>
+    </div> -->
+    <br><br><br>
     <div class="container">
-        <div class="arrow-container">
-            <img src="../images/arrow.png" class="arrow" alt="">
+        <hr class="mt-2">
+    </div>
+    <div class="row text-center mt-5">
+        <span class="titles-2" style="color: #000">HOSPEDAJE</span>
+    </div>
+    <div class="container mt-5">
+        <div class="row d-flex justify-content-center mt-5 ">
+            <div class="card text-center justify-content-center" style="border: 0;">
+                <div class="">
+                    <ul class="nav justify-content-center p-2">
+                        <li class="me-2">
+                            <div class="d-flex justify-content-center">
+                                <button id="button1" class="btn buttons-hospedaje p-2"
+                                    onclick="selectButton('button1'); showContent('content1')">Cabaña Container</button>
+                            </div>
+                        </li>
+                        <li class="me-2">
+                            <button id="button2" class="btn buttons-hospedaje"
+                                onclick="selectButton('button2'); showContent('content2')">Cabaña Familiar</button>
+                        </li>
+                        <li class="me-2">
+                            <button id="button3" class="btn buttons-hospedaje"
+                                onclick="selectButton('button3'); showContent('content3')">Casa Hotel</button>
+                        </li>
+                        <li class="me-2">
+                            <button id="button4" class="btn buttons-hospedaje"
+                                onclick="selectButton('button4'); showContent('content4')">Cabañas Familiares</button>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div id="content1" class="card-body">
+                        <div class="row mt-4">
+                            <div class="col-md-12 col-sm-12 col-xl-4 col-lg-4 p-0 miradores-image-hospedaje">
+                                <img id="habitacion1" src="../images/Santa_Rosa/cabañacontainer_1.jpg"
+                                    class="img-fluid hospedaje" alt="">
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xl-8 col-lg-8 p-2 ps-3 my-custom-div-hospedaje"
+                                style="background-color: #F5F5F5;">
+                                <h2 class="titles text-muted mt-2">Cabaña Container</h2>
+                                <p class="text-muted text-justify mt-2" style="text-align: justify; padding-left: 25px;
+                                padding-right: 25px;">Vive la magia y el lujo en "Nido del Turpial
+                                    VIP", una
+                                    experiencia única en la montaña que ofrece acceso total a atracciones emocionantes,
+                                    traslados internos, y una conexión especial con la naturaleza. Disfruta de una cena
+                                    romántica, un desayuno delicioso, y una velada nocturna con decoración exquisita.
+                                    Relájate en una tina de agua caliente, flota en una malla catamarán, celebra con una
+                                    botella de vino, y déjate encantar por música en vivo y una fogata colectiva.
+                                    Además, saborea nuestro café especial, viaja con seguridad gracias a nuestro seguro
+                                    incluido, explora con un recorrido guiado, y mantente conectado con nuestro WiFi.
+                                    Reserva tu aventura en el "Nido del Turpial VIP" y prepara para vivir momentos
+                                    inolvidables.
+                                </p>
+
+                                <!--   <p class=" text-justify mt-4">Vive una expericencia unica en vip</p> -->
+                                <p class="titles text-muted mt-4" style="padding-left: 20px;
+                                padding-right: 20px;">Nido del Turpial VIP es más que una estancia; es una
+                                    experiencia que marca la diferencia. Reserva ahora y prepárate para vivir momentos
+                                    que atesorarás por siempre.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="content2" class="card-body" style="display: none;">
+                        <div class="row mt-4">
+                            <div class="col-md-12 col-sm-12 col-xl-4 col-lg-4 p-0 miradores-image-hospedaje">
+                                <img id="habitacion2" src="../images/Santa_Rosa/cabañafamiliar_1.jpg"
+                                    class="img-fluid hospedaje" alt="">
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xl-8 col-lg-8 p-2 ps-3 my-custom-div-hospedaje"
+                                style="background-color: #F5F5F5;">
+                                <h2 class="titles text-muted mt-2">Cabaña Familiar</h2>
+                                <p class="text-muted mt-2" style="text-align: justify; padding-left: 25px;
+                                padding-right: 25px;">Descubre el encanto de una noche de lujo en la montaña con
+                                    nuestro paquete exclusivo. Te ofrecemos traslados internos para una llegada cómoda y
+                                    sin preocupaciones. Disfruta de una experiencia culinaria completa con desayuno,
+                                    almuerzo y una cena romántica, acompañada de exquisitos cocteles y bebidas
+                                    naturales. Sumérgete en un ambiente de ensueño con una decoración romántica y una
+                                    velada nocturna especial, incluyendo una fogata íntima. Relájate en la malla
+                                    catamarán privada, el jacuzzi y la piscina privada, o disfruta de una película en
+                                    nuestra sala de cine. Brinda con una selecta botella de vino y degusta los mejores
+                                    cafés. Con WiFi y parqueadero incluidos, tu comodidad está asegurada. Ten en cuenta
+                                    que el deslizador arcoíris no está incluido.
+                                </p>
+                                <!-- <p class=" mt-4">Vive una expericencia unica en el Nido colibri</p> -->
+                                <p class="titles text-muted mt-4" style="padding-left: 20px;
+                                padding-right: 20px;">¡Reserva tu aventura de lujo y prepárate para crear
+                                    recuerdos inolvidables!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="content3" class="card-body" style="display: none;">
+                        <div class="row mt-4">
+                            <div class="col-md-12 col-sm-12 col-xl-4 col-lg-4 p-0 miradores-image-hospedaje">
+                                <img id="habitacion3" src="../images/Santa_Rosa/casahotel_1.jpg"
+                                    class="img-fluid hospedaje" alt="">
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xl-8 col-lg-8 p-2 ps-3 my-custom-div-hospedaje"
+                                style="background-color: #F5F5F5;">
+                                <h2 class="titles text-muted mt-2">Casa Hotel</h2>
+                                <p class="text-muted mt-2" style="text-align: justify; padding-left: 25px;
+                                padding-right: 25px;">Explora el "Nido del Cardenal", un lujoso refugio en la
+                                    montaña que ofrece una mezcla perfecta de comodidad y aventura. Disfruta de una
+                                    estancia excepcional con acceso a atracciones emocionantes, traslados internos, cena
+                                    romántica bajo las estrellas y un desayuno delicioso. Relájate en una tina de agua
+                                    caliente, disfruta de la malla catamarán, música en vivo y una botella de vino
+                                    selecto. Participa en fogatas colectivas, saborea café especial y explora la montaña
+                                    con recorridos guiados, todo con la comodidad del WiFi. Cada detalle está pensado
+                                    para una experiencia inolvidable, aunque no incluye el deslizador arcoíris.
+                                </p>
+                                <br>
+                                <!-- <p class=" mt-4">READ MORE</p> -->
+                                <p class="titles text-muted mt-4" style="padding-left: 20px;
+                                padding-right: 20px;">¡Reserva ahora en el Nido del Cardenal y prepárate
+                                    para una escapada que superará todas tus expectativas!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="content4" class="card-body" style="display: none;">
+                        <div class="row mt-4">
+                            <div class="col-md-12 col-sm-12 col-xl-4 col-lg-4 p-0 miradores-image-hospedaje">
+                                <img id="habitacion4" src="../images/Santa_Rosa/cabañasfamiliares_1.jpg"
+                                    class="img-fluid hospedaje" alt="">
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xl-8 col-lg-8 p-2 ps-3 my-custom-div-hospedaje"
+                                style="background-color: #F5F5F5;">
+                                <h2 class="titles text-muted mt-2">Cabañas Familiares</h2>
+                                <p class="text-muted mt-2" style="text-align: justify; padding-left: 25px;
+                                padding-right: 25px;">Escapa a nuestra Cabaña Hostel en la montaña para una
+                                    experiencia inolvidable. Disfruta de una acogedora noche de hospedaje, con acceso a
+                                    emocionantes atracciones (excepto el deslizador), y comienza tus mañanas con un
+                                    delicioso desayuno. Vive noches mágicas alrededor de una fogata colectiva bajo las
+                                    estrellas, mantente conectado con nuestro WiFi y relájate con nuestra TV tras un día
+                                    lleno de aventuras. Benefíciate de los traslados internos para explorar con
+                                    facilidad y aprovecha nuestro parqueadero seguro. En nuestra Cabaña Hostel, combinas
+                                    perfectamente la emoción de la montaña con la comodidad de un hogar.
+                                </p>
+                                <br>
+                                <!-- <p class=" mt-4">READ MORE</p> -->
+                                <p class="titles text-muted mt-4" style="padding-left: 20px;
+                                padding-right: 20px;">¡Reserva tu estancia ahora y prepárate para una
+                                    escapada memorable!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
-        <ul class="pagination justify-content-center">
-            <!--           <li class="">
-            <a class="page-link">Previous</a>
-          </li> -->
-            <li class="pages"><a class="" href="#"></a></li>
-            <li class="pages"><a class="" href="#"></a></li>
-            <li class="pages"><a class="" href="#"></a></li>
-            <li class="pages"><a class="" href="#"></a></li>
-            <li class="pages">
-                <!-- <a class="page-link" href="#">Next</a> -->
-            </li>
-        </ul>
+    </div>
+    <div class="container mt-5">
+        <hr class="mt-2">
+    </div>
+    </div>
+    <div class="row text-center mt-5">
+        <span class="titles-2" style="color: #000">ALIMENTACIÓN</span>
+    </div>
+    <div class="container mt-5">
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 col-sm-5 col-md-5 col-lg-3 col-xl-3 pt-2">
+                <div class="card box_shadow">
+                    <img src="../images/Santa_Rosa/alimentacion.jpg" class="card-img-top img-fluid" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title titleRestaurant text-muted">  </h6>
+                        <p class="card-text text-muted">Un desayuno tipico y delicioso en las montañas de colombia.
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-5 col-md-5 col-lg-3 col-xl-3 pt-2">
+                <div class="card box_shadow">
+                    <img src="../images/Santa_Rosa/alimentacion_4.jpg" class="card-img-top img-fluid" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title titleRestaurant text-muted">  </h6>
+                        <p class="card-text text-muted">La alquimia del amor en una sola mesa ♡.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-5 col-md-5 col-lg-3 col-xl-3 pt-2">
+                <div class="card box_shadow">
+                    <img src="../images/Santa_Rosa/alimentacion_6.jpg" class="card-img-top img-fluid" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title titleRestaurant text-muted"></h6>
+                        <p class="card-text text-muted">Disfruta de la  gastronomía gigante.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-5 col-md-5 col-lg-3 col-xl-3 pt-2">
+                <div class="card box_shadow">
+                    <img src="../images/Santa_Rosa/alimentacion_2.jpg" class="card-img-top img-fluid" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title titleRestaurant text-muted">   </h6>
+                        <p class="card-text text-muted">Encuentra nuestro plato más típico delicia gastronómica 
+                            "El asado Huilense".</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container mt-5">
+        <hr class="mt-2">
+    </div>
+
+    <div class="container mt-2">
+        <div class="footer-clean">
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-6 col-xs-12">
+                            <p class="copyright-text">Copyright &copy; 2023 Mundo De Gigantes.</p><br>
+                            <p></p>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <ul class="social-icons" style="white-space: nowrap;">
+                                <li><a class="facebook"
+                                        href="https://web.facebook.com/profile.php?id=100063679368501"><i
+                                            class="fa fa-facebook icono-grande"></i></a></li>
+                                <li><a class="instagram"
+                                        href="https://instagram.com/mundodegigantes?igshid=OGQ5ZDc2ODk2ZA=="><i
+                                            class="fa-brands fa-instagram fa-lg"></i></a></li>
+                                <li><i class="fa-solid fa-envelope"></i> lamanodelgigantehuila@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
     </div>
 </body>
 <script>
@@ -268,6 +634,80 @@
     document.addEventListener("DOMContentLoaded", function () {
         const navbar = document.querySelector(".navbar");
         navbar.classList.add("navbar-transparent");
+
+        selectButton('button1');
     });
+
+    function showContent(contentId) {
+        // Ocultar todos los contenidos
+        document.querySelectorAll('.card-body').forEach(function (content) {
+            content.style.display = 'none';
+        });
+        // Mostrar el contenido seleccionado
+        document.getElementById(contentId).style.display = 'block';
+    }
+
+    // Función para cambiar el estado de los botones
+    function selectButton(btnId) {
+        // Eliminar la clase 'selected' de todos los botones
+        var buttons = document.getElementsByClassName('buttons-hospedaje');
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].classList.remove('selected');
+        }
+
+        // Añadir la clase 'selected' al botón clickeado
+        var selectedButton = document.getElementById(btnId);
+        selectedButton.classList.add('selected');
+    }
+
+    const habitaciones = [
+        {
+            habitacion: ["../images/Santa_Rosa/cabañacontainer_1.jpg", "../images/Santa_Rosa/cabañafamiliar_1.jpg", "../images/Santa_Rosa/casahotel_1.jpg", "../images/Santa_Rosa/cabañasfamiliares_1.jpg", "../images/Santa_Rosa/cabañacontainer_1.jpg", "../images/Santa_Rosa/cabañacontainer_1.jpg"],
+            /*  titles: ["", "", ""], */
+        },
+        {
+            habitacion:  ["../images/Santa_Rosa/cabañacontainer_2.jpg", "../images/Santa_Rosa/cabañafamiliar_2.jpg", "../images/Santa_Rosa/casahotel_2.jpg", "../images/Santa_Rosa/cabañasfamiliares_2.jpg", "../images/Santa_Rosa/cabañacontainer_2.jpg", "../images/Santa_Rosa/cabañacontainer_2.jpg"],
+            /*  titles: ["", "", ""], */
+        },
+        {
+            habitacion: ["../images/Santa_Rosa/cabañacontainer_3.jpg", "../images/Santa_Rosa/cabañafamiliar_3.jpg", "../images/Santa_Rosa/casahotel_3.jpg", "../images/Santa_Rosa/cabañasfamiliares_3.jpg", "../images/Santa_Rosa/cabañacontainer_3.jpg", "../images/Santa_Rosa/cabañacontainer_3.jpg"],
+            /*  titles: ["", "", ""], */
+        },
+        {
+            habitacion:  ["../images/Santa_Rosa/cabañacontainer_4.jpg", "../images/Santa_Rosa/cabañafamiliar_4.jpg", "../images/Santa_Rosa/casahotel_4.jpg", "../images/Santa_Rosa/cabañasfamiliares_4.jpg", "../images/Santa_Rosa/cabañacontainer_4.jpg", "../images/Santa_Rosa/cabañacontainer_4.jpg"],
+            /*  titles: ["", "", ""], */
+        },
+        {
+            habitacion:  ["../images/Santa_Rosa/cabañacontainer_3.jpg", "../images/Santa_Rosa/cabañafamiliar_5.jpg", "../images/Santa_Rosa/casahotel_5.jpg", "../images/Santa_Rosa/cabañasfamiliares_5.jpg", "../images/Santa_Rosa/cabañacontainer_5.jpg", "../images/Santa_Rosa/cabañacontainer_5.jpg"],
+            /*  titles: ["", "", ""], */
+        }
+    ];
+
+    var contadorIndex = 0;
+    var intervalIdHospedaje;
+
+    function startIntervalHospedaje() {
+        intervalIdHospedaje = setInterval(() => {
+            contadorIndex = (contadorIndex + 1) % habitaciones.length;
+            updateContentHospedaje();
+        }, 5000);
+    }
+
+    function resetIntervalHospedaje() {
+        clearInterval(intervalIdHospedaje);
+        startIntervalHospedaje();
+    }
+
+    function updateContentHospedaje() {
+        for (let i = 1; i <= 6; i++) { // Asegúrate de que este bucle coincida con el número de imágenes de hospedaje
+            document.getElementById(`habitacion${i}`).src = habitaciones[contadorIndex].habitacion[i - 1];
+        }
+    }
+
+    startIntervalHospedaje();
+
+
+
 </script>
+
 </html>
